@@ -1,0 +1,119 @@
+t_ms,actor,ip,key,endpoint,direction,event,control,outcome,detail
+0,h-000,203.0.113.10,key-h0000,203.0.113.10:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=1/11 out=0/10 fixed=0 reserved=0
+0,h-000,203.0.113.10,key-h0000,203.0.113.10:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+0,h-000,203.0.113.10,key-h0000,203.0.113.10:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 203.0.113.10: 1
+5,h-001,203.0.113.11,key-h0001,203.0.113.11:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=2/11 out=0/10 fixed=0 reserved=0
+5,h-001,203.0.113.11,key-h0001,203.0.113.11:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+5,h-001,203.0.113.11,key-h0001,203.0.113.11:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 203.0.113.11: 1
+10,h-002,203.0.113.12,key-h0002,203.0.113.12:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=3/11 out=0/10 fixed=0 reserved=0
+10,h-002,203.0.113.12,key-h0002,203.0.113.12:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+10,h-002,203.0.113.12,key-h0002,203.0.113.12:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 203.0.113.12: 1
+15,h-003,203.0.113.13,key-h0003,203.0.113.13:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=4/11 out=0/10 fixed=0 reserved=0
+15,h-003,203.0.113.13,key-h0003,203.0.113.13:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+15,h-003,203.0.113.13,key-h0003,203.0.113.13:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 203.0.113.13: 1
+20,h-004,203.0.113.14,key-h0004,203.0.113.14:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=5/11 out=0/10 fixed=0 reserved=0
+20,h-004,203.0.113.14,key-h0004,203.0.113.14:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+20,h-004,203.0.113.14,key-h0004,203.0.113.14:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 203.0.113.14: 1
+25,h-005,203.0.113.15,key-h0005,203.0.113.15:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=6/11 out=0/10 fixed=0 reserved=0
+25,h-005,203.0.113.15,key-h0005,203.0.113.15:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+25,h-005,203.0.113.15,key-h0005,203.0.113.15:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 203.0.113.15: 1
+30,h-006,203.0.113.16,key-h0006,203.0.113.16:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=7/11 out=0/10 fixed=0 reserved=0
+30,h-006,203.0.113.16,key-h0006,203.0.113.16:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+30,h-006,203.0.113.16,key-h0006,203.0.113.16:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 203.0.113.16: 1
+35,h-007,203.0.113.17,key-h0007,203.0.113.17:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=8/11 out=0/10 fixed=0 reserved=0
+35,h-007,203.0.113.17,key-h0007,203.0.113.17:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+35,h-007,203.0.113.17,key-h0007,203.0.113.17:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 203.0.113.17: 1
+40,h-008,203.0.113.18,key-h0008,203.0.113.18:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=9/11 out=0/10 fixed=0 reserved=0
+40,h-008,203.0.113.18,key-h0008,203.0.113.18:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+40,h-008,203.0.113.18,key-h0008,203.0.113.18:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 203.0.113.18: 1
+45,h-009,203.0.113.19,key-h0009,203.0.113.19:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=10/11 out=0/10 fixed=0 reserved=0
+45,h-009,203.0.113.19,key-h0009,203.0.113.19:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+45,h-009,203.0.113.19,key-h0009,203.0.113.19:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 203.0.113.19: 1
+50,h-010,203.0.113.20,key-h0010,203.0.113.20:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=11/11 out=0/10 fixed=0 reserved=0
+50,h-010,203.0.113.20,key-h0010,203.0.113.20:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+50,h-010,203.0.113.20,key-h0010,203.0.113.20:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 203.0.113.20: 1
+55,node,,,,,autoconnect,C10_autoconnect,batch_bootcache,19 bootcache endpoints handed out (Logic.h:588-600)
+155,h-011,203.0.113.21,key-h0011,203.0.113.21:51235,out,activate,C03_outbound_slots,activated,peer active as out slot; totals in=11/11 out=1/10 fixed=0 reserved=0
+155,h-011,203.0.113.21,key-h0011,203.0.113.21:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-011,203.0.113.21,key-h0011,203.0.113.21:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+155,h-012,203.0.113.22,key-h0012,203.0.113.22:51235,out,activate,C03_outbound_slots,activated,peer active as out slot; totals in=11/11 out=2/10 fixed=0 reserved=0
+155,h-012,203.0.113.22,key-h0012,203.0.113.22:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-012,203.0.113.22,key-h0012,203.0.113.22:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+155,h-013,203.0.113.23,key-h0013,203.0.113.23:51235,out,activate,C03_outbound_slots,activated,peer active as out slot; totals in=11/11 out=3/10 fixed=0 reserved=0
+155,h-013,203.0.113.23,key-h0013,203.0.113.23:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-013,203.0.113.23,key-h0013,203.0.113.23:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+155,h-014,203.0.113.24,key-h0014,203.0.113.24:51235,out,activate,C03_outbound_slots,activated,peer active as out slot; totals in=11/11 out=4/10 fixed=0 reserved=0
+155,h-014,203.0.113.24,key-h0014,203.0.113.24:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-014,203.0.113.24,key-h0014,203.0.113.24:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+155,h-015,203.0.113.25,key-h0015,203.0.113.25:51235,out,activate,C03_outbound_slots,activated,peer active as out slot; totals in=11/11 out=5/10 fixed=0 reserved=0
+155,h-015,203.0.113.25,key-h0015,203.0.113.25:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-015,203.0.113.25,key-h0015,203.0.113.25:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+155,h-016,203.0.113.26,key-h0016,203.0.113.26:51235,out,activate,C03_outbound_slots,activated,peer active as out slot; totals in=11/11 out=6/10 fixed=0 reserved=0
+155,h-016,203.0.113.26,key-h0016,203.0.113.26:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-016,203.0.113.26,key-h0016,203.0.113.26:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+155,h-017,203.0.113.27,key-h0017,203.0.113.27:51235,out,activate,C03_outbound_slots,activated,peer active as out slot; totals in=11/11 out=7/10 fixed=0 reserved=0
+155,h-017,203.0.113.27,key-h0017,203.0.113.27:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-017,203.0.113.27,key-h0017,203.0.113.27:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+155,h-018,203.0.113.28,key-h0018,203.0.113.28:51235,out,activate,C03_outbound_slots,activated,peer active as out slot; totals in=11/11 out=8/10 fixed=0 reserved=0
+155,h-018,203.0.113.28,key-h0018,203.0.113.28:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-018,203.0.113.28,key-h0018,203.0.113.28:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+155,h-019,203.0.113.29,key-h0019,203.0.113.29:51235,out,activate,C03_outbound_slots,activated,peer active as out slot; totals in=11/11 out=9/10 fixed=0 reserved=0
+155,h-019,203.0.113.29,key-h0019,203.0.113.29:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-019,203.0.113.29,key-h0019,203.0.113.29:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+155,h-020,203.0.113.30,key-h0020,203.0.113.30:51235,out,activate,C03_outbound_slots,activated,peer active as out slot; totals in=11/11 out=10/10 fixed=0 reserved=0
+155,h-020,203.0.113.30,key-h0020,203.0.113.30:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-020,203.0.113.30,key-h0020,203.0.113.30:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+155,h-021,203.0.113.31,key-h0021,203.0.113.31:51235,out,activate,C03_outbound_slots,rejected_slots_full,no out slot free (10/10 active); reserved=False (Logic.h:427-435)
+155,h-021,203.0.113.31,key-h0021,203.0.113.31:51235,out,disconnect,peer_lifecycle,disconnected,removed out slot (was connected): activate failed: full
+155,h-021,203.0.113.31,key-h0021,203.0.113.31:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-021,203.0.113.31,key-h0021,203.0.113.31:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+155,h-022,203.0.113.32,key-h0022,203.0.113.32:51235,out,activate,C03_outbound_slots,rejected_slots_full,no out slot free (10/10 active); reserved=False (Logic.h:427-435)
+155,h-022,203.0.113.32,key-h0022,203.0.113.32:51235,out,disconnect,peer_lifecycle,disconnected,removed out slot (was connected): activate failed: full
+155,h-022,203.0.113.32,key-h0022,203.0.113.32:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-022,203.0.113.32,key-h0022,203.0.113.32:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+155,h-023,203.0.113.33,key-h0023,203.0.113.33:51235,out,activate,C03_outbound_slots,rejected_slots_full,no out slot free (10/10 active); reserved=False (Logic.h:427-435)
+155,h-023,203.0.113.33,key-h0023,203.0.113.33:51235,out,disconnect,peer_lifecycle,disconnected,removed out slot (was connected): activate failed: full
+155,h-023,203.0.113.33,key-h0023,203.0.113.33:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-023,203.0.113.33,key-h0023,203.0.113.33:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+155,h-024,203.0.113.34,key-h0024,203.0.113.34:51235,out,activate,C03_outbound_slots,rejected_slots_full,no out slot free (10/10 active); reserved=False (Logic.h:427-435)
+155,h-024,203.0.113.34,key-h0024,203.0.113.34:51235,out,disconnect,peer_lifecycle,disconnected,removed out slot (was connected): activate failed: full
+155,h-024,203.0.113.34,key-h0024,203.0.113.34:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-024,203.0.113.34,key-h0024,203.0.113.34:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+155,h-025,203.0.113.35,key-h0025,203.0.113.35:51235,out,activate,C03_outbound_slots,rejected_slots_full,no out slot free (10/10 active); reserved=False (Logic.h:427-435)
+155,h-025,203.0.113.35,key-h0025,203.0.113.35:51235,out,disconnect,peer_lifecycle,disconnected,removed out slot (was connected): activate failed: full
+155,h-025,203.0.113.35,key-h0025,203.0.113.35:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-025,203.0.113.35,key-h0025,203.0.113.35:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+155,h-026,203.0.113.36,key-h0026,203.0.113.36:51235,out,activate,C03_outbound_slots,rejected_slots_full,no out slot free (10/10 active); reserved=False (Logic.h:427-435)
+155,h-026,203.0.113.36,key-h0026,203.0.113.36:51235,out,disconnect,peer_lifecycle,disconnected,removed out slot (was connected): activate failed: full
+155,h-026,203.0.113.36,key-h0026,203.0.113.36:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-026,203.0.113.36,key-h0026,203.0.113.36:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+155,h-027,203.0.113.37,key-h0027,203.0.113.37:51235,out,activate,C03_outbound_slots,rejected_slots_full,no out slot free (10/10 active); reserved=False (Logic.h:427-435)
+155,h-027,203.0.113.37,key-h0027,203.0.113.37:51235,out,disconnect,peer_lifecycle,disconnected,removed out slot (was connected): activate failed: full
+155,h-027,203.0.113.37,key-h0027,203.0.113.37:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-027,203.0.113.37,key-h0027,203.0.113.37:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+155,h-028,203.0.113.38,key-h0028,203.0.113.38:51235,out,activate,C03_outbound_slots,rejected_slots_full,no out slot free (10/10 active); reserved=False (Logic.h:427-435)
+155,h-028,203.0.113.38,key-h0028,203.0.113.38:51235,out,disconnect,peer_lifecycle,disconnected,removed out slot (was connected): activate failed: full
+155,h-028,203.0.113.38,key-h0028,203.0.113.38:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-028,203.0.113.38,key-h0028,203.0.113.38:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+155,h-029,203.0.113.39,key-h0029,203.0.113.39:51235,out,activate,C03_outbound_slots,rejected_slots_full,no out slot free (10/10 active); reserved=False (Logic.h:427-435)
+155,h-029,203.0.113.39,key-h0029,203.0.113.39:51235,out,disconnect,peer_lifecycle,disconnected,removed out slot (was connected): activate failed: full
+155,h-029,203.0.113.39,key-h0029,203.0.113.39:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,h-029,203.0.113.39,key-h0029,203.0.113.39:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+10055,c-00,203.0.113.200,key-c0000,203.0.113.200:51235,in,activate,reserved_bypass,activated,peer active as in slot; totals in=11/11 out=10/10 fixed=0 reserved=1
+10055,c-00,203.0.113.200,key-c0000,203.0.113.200:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+10055,c-00,203.0.113.200,key-c0000,203.0.113.200:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 203.0.113.200: 1
+10060,c-01,203.0.113.201,key-c0001,203.0.113.201:51235,in,activate,reserved_bypass,activated,peer active as in slot; totals in=11/11 out=10/10 fixed=0 reserved=2
+10060,c-01,203.0.113.201,key-c0001,203.0.113.201:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+10060,c-01,203.0.113.201,key-c0001,203.0.113.201:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 203.0.113.201: 1
+10065,c-02,203.0.113.202,key-c0002,203.0.113.202:51235,in,activate,reserved_bypass,activated,peer active as in slot; totals in=11/11 out=10/10 fixed=0 reserved=3
+10065,c-02,203.0.113.202,key-c0002,203.0.113.202:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+10065,c-02,203.0.113.202,key-c0002,203.0.113.202:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 203.0.113.202: 1
+10070,f-00,203.0.113.210,key-f0000,203.0.113.210:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=11/11 out=10/10 fixed=1 reserved=3
+10070,f-00,203.0.113.210,key-f0000,203.0.113.210:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+10070,f-00,203.0.113.210,key-f0000,203.0.113.210:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 203.0.113.210: 1
+10075,f-01,203.0.113.211,key-f0001,203.0.113.211:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=11/11 out=10/10 fixed=2 reserved=3
+10075,f-01,203.0.113.211,key-f0001,203.0.113.211:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+10075,f-01,203.0.113.211,key-f0001,203.0.113.211:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 203.0.113.211: 1
+10080,r-00,203.0.113.220,key-r0000,203.0.113.220:51235,in,activate,reserved_bypass,activated,peer active as in slot; totals in=11/11 out=10/10 fixed=2 reserved=4
+10080,r-00,203.0.113.220,key-r0000,203.0.113.220:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+10080,r-00,203.0.113.220,key-r0000,203.0.113.220:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 203.0.113.220: 1

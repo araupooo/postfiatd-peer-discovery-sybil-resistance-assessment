@@ -1,0 +1,20 @@
+scenario: S8-fixed-cluster-bypass
+title: Fixed/cluster bypass: 6 reserved peers activate while all 21 public slots are full
+pinned_commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+scenario_file: scenarios/S8-fixed-cluster-bypass.json
+scenario_sha256: 47e1cf75bde8b80758354cc05cb9c02f0227544b4d39ab67210b8563b363711d
+simulator_file: scripts/simulator.py
+simulator_sha256: 205ea7cb595be8a7afcd079de9ed959b5c81963265952c0e43186660bf8427f2
+harness_file: scripts/load_harness.py
+harness_sha256: b68ccc11cfdf32d841ef04174dfe89a5892806997204755a037882d3b4247ab2
+duration_ms: 10000
+total_events: 118
+activated: 27
+outcomes: {"activated": 27, "batch_bootcache": 1, "disconnected": 9, "rejected_slots_full": 9, "slot_created": 36, "verified": 36}
+controls: {"C02_inbound_slots": 30, "C03_outbound_slots": 38, "C10_autoconnect": 1, "handshake": 36, "peer_lifecycle": 9, "reserved_bypass": 4}
+metrics: {"bypass_activated": 6, "cluster_peers": 3, "fixed_peers": 2, "public_in_active": 11, "public_out_active": 10, "public_slots_before": 21, "reserved_peers": 1, "total_active_after": 27}
+final_state: {"attempts_in_flight": 0, "bootcache_entries": 30, "fixed_active": 2, "in_active": 11, "in_max": 11, "ip_limit": 2, "keys_active": 27, "livecache_entries": 0, "out_active": 10, "out_max": 10, "reserved_active": 4, "slots": 27, "total_active": 27}
+csv_file: outputs/S8-fixed-cluster-bypass.csv
+csv_sha256: 56a55aa1083221c98a565c128f6a09fd98ecf637abe352c8d507c48dcb2d9eed
+json_file: outputs/S8-fixed-cluster-bypass.json
+json_sha256: 609b1eaafba4b905232b76e63ae0235bb5541c42346d2ad84bedd5985df73a4b

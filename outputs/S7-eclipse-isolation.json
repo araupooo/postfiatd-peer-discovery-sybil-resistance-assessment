@@ -1,0 +1,247 @@
+{
+  "activated": 15,
+  "controls": {
+    "C02_inbound_slots": 10,
+    "C03_outbound_slots": 40,
+    "C07_gossip_filters": 5,
+    "C10_autoconnect": 1,
+    "handshake": 25,
+    "peer_lifecycle": 15
+  },
+  "duration_ms": 60000,
+  "endpoint_stats": {
+    "accepted_bootcache": 70,
+    "accepted_livecache": 70,
+    "dropped_duplicate": 0,
+    "dropped_hops": 0,
+    "dropped_invalid": 0,
+    "dropped_rate_limit": 0,
+    "received": 70,
+    "truncated": 0
+  },
+  "final_state": {
+    "attempts_in_flight": 0,
+    "bootcache_entries": 70,
+    "fixed_active": 0,
+    "in_active": 0,
+    "in_max": 11,
+    "ip_limit": 2,
+    "keys_active": 10,
+    "livecache_entries": 70,
+    "out_active": 10,
+    "out_max": 10,
+    "reserved_active": 0,
+    "slots": 10,
+    "total_active": 10
+  },
+  "gossip_events": [
+    {
+      "accepted_bootcache": 20,
+      "accepted_livecache": 20,
+      "dropped_duplicate": 0,
+      "dropped_hops": 0,
+      "dropped_invalid": 0,
+      "dropped_rate_limit": 0,
+      "received": 20,
+      "truncated": 0
+    },
+    {
+      "accepted_bootcache": 20,
+      "accepted_livecache": 20,
+      "dropped_duplicate": 0,
+      "dropped_hops": 0,
+      "dropped_invalid": 0,
+      "dropped_rate_limit": 0,
+      "received": 20,
+      "truncated": 0
+    },
+    {
+      "accepted_bootcache": 20,
+      "accepted_livecache": 20,
+      "dropped_duplicate": 0,
+      "dropped_hops": 0,
+      "dropped_invalid": 0,
+      "dropped_rate_limit": 0,
+      "received": 20,
+      "truncated": 0
+    },
+    {
+      "accepted_bootcache": 5,
+      "accepted_livecache": 5,
+      "dropped_duplicate": 0,
+      "dropped_hops": 0,
+      "dropped_invalid": 0,
+      "dropped_rate_limit": 0,
+      "received": 5,
+      "truncated": 0
+    },
+    {
+      "accepted_bootcache": 5,
+      "accepted_livecache": 5,
+      "dropped_duplicate": 0,
+      "dropped_hops": 0,
+      "dropped_invalid": 0,
+      "dropped_rate_limit": 0,
+      "received": 5,
+      "truncated": 0
+    }
+  ],
+  "handshake_rejects": {},
+  "metrics": {
+    "attacker_outbound_share_pct": 100.0,
+    "attacker_outbound_slots": 10,
+    "autoconnect_batches": 1,
+    "bootcache_attacker_endpoints": 60,
+    "bootcache_honest_endpoints": 10,
+    "honest_outbound_slots": 0,
+    "livecache_attacker_endpoints": 60,
+    "livecache_honest_endpoints": 10
+  },
+  "outcomes": {
+    "activated": 15,
+    "batch_livecache": 1,
+    "disconnected": 15,
+    "processed": 5,
+    "rejected_slots_full": 10,
+    "slot_created": 25,
+    "verified": 25
+  },
+  "per_actor": {
+    "a-300": {
+      "activated": 1,
+      "events": 5,
+      "rejected": 0
+    },
+    "a-301": {
+      "activated": 1,
+      "events": 5,
+      "rejected": 0
+    },
+    "a-302": {
+      "activated": 1,
+      "events": 5,
+      "rejected": 0
+    },
+    "g-198.51.100.101": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "g-198.51.100.103": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "g-198.51.100.107": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "g-198.51.100.108": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "g-198.51.100.110": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "g-198.51.100.111": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "g-198.51.100.116": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "g-198.51.100.64": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "g-198.51.100.66": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "g-198.51.100.69": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "g-198.51.100.72": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "g-198.51.100.73": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "g-198.51.100.74": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "g-198.51.100.76": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "g-198.51.100.83": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "g-198.51.100.91": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "g-198.51.100.92": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "g-198.51.100.94": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "g-198.51.100.97": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "g-198.51.100.98": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "h-300": {
+      "activated": 1,
+      "events": 5,
+      "rejected": 0
+    },
+    "h-301": {
+      "activated": 1,
+      "events": 5,
+      "rejected": 0
+    },
+    "node": {
+      "activated": 0,
+      "events": 1,
+      "rejected": 0
+    }
+  },
+  "pinned_commit": "0085a1ff885d6a446369cf73a4430f75af22be55",
+  "rejected": 10,
+  "scenario": "S7-eclipse-isolation",
+  "simulated": true,
+  "title": "Eclipse isolation: poisoned livecache/bootcache steer all 10 outbound slots to attacker peers",
+  "total_events": 96
+}

@@ -1,0 +1,79 @@
+{
+  "activated": 1,
+  "controls": {
+    "C02_inbound_slots": 2,
+    "C07_gossip_filters": 1,
+    "C08_gossip_truncation": 1,
+    "handshake": 1
+  },
+  "duration_ms": 10000,
+  "endpoint_stats": {
+    "accepted_bootcache": 22,
+    "accepted_livecache": 22,
+    "dropped_duplicate": 4,
+    "dropped_hops": 27,
+    "dropped_invalid": 11,
+    "dropped_rate_limit": 0,
+    "received": 200,
+    "truncated": 136
+  },
+  "final_state": {
+    "attempts_in_flight": 0,
+    "bootcache_entries": 22,
+    "fixed_active": 0,
+    "in_active": 1,
+    "in_max": 11,
+    "ip_limit": 2,
+    "keys_active": 1,
+    "livecache_entries": 22,
+    "out_active": 0,
+    "out_max": 10,
+    "reserved_active": 0,
+    "slots": 1,
+    "total_active": 1
+  },
+  "gossip_events": [
+    {
+      "accepted_bootcache": 22,
+      "accepted_livecache": 22,
+      "dropped_duplicate": 4,
+      "dropped_hops": 27,
+      "dropped_invalid": 11,
+      "dropped_rate_limit": 0,
+      "received": 200,
+      "truncated": 136
+    }
+  ],
+  "handshake_rejects": {},
+  "metrics": {
+    "accepted_bootcache": 22,
+    "accepted_livecache": 22,
+    "bootcache_entries": 22,
+    "dropped_duplicate": 4,
+    "dropped_hops": 27,
+    "dropped_invalid": 11,
+    "endpoints_received": 200,
+    "endpoints_truncated": 136,
+    "livecache_entries": 22
+  },
+  "outcomes": {
+    "activated": 1,
+    "processed": 1,
+    "slot_created": 1,
+    "truncated": 1,
+    "verified": 1
+  },
+  "per_actor": {
+    "a-000": {
+      "activated": 1,
+      "events": 5,
+      "rejected": 0
+    }
+  },
+  "pinned_commit": "0085a1ff885d6a446369cf73a4430f75af22be55",
+  "rejected": 0,
+  "scenario": "S6-endpoint-gossip",
+  "simulated": true,
+  "title": "Endpoint-gossip poisoning: one peer sends 200 endpoints (hops, invalid, duplicate, valid mix)",
+  "total_events": 5
+}
