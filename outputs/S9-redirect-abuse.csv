@@ -1,0 +1,54 @@
+t_ms,actor,ip,key,endpoint,direction,event,control,outcome,detail
+0,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=1/11 out=0/10 fixed=0 reserved=0
+0,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+0,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.10: 1
+0,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 1/30 handed out 10 endpoints
+5,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 2/30 handed out 10 endpoints
+10,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 3/30 handed out 10 endpoints
+15,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 4/30 handed out 10 endpoints
+20,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 5/30 handed out 10 endpoints
+25,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 6/30 handed out 10 endpoints
+30,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 7/30 handed out 10 endpoints
+35,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 8/30 handed out 10 endpoints
+40,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 9/30 handed out 10 endpoints
+45,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 10/30 handed out 10 endpoints
+50,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 11/30 handed out 10 endpoints
+55,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 12/30 handed out 10 endpoints
+60,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 13/30 handed out 10 endpoints
+65,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 14/30 handed out 10 endpoints
+70,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 15/30 handed out 10 endpoints
+75,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 16/30 handed out 10 endpoints
+80,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 17/30 handed out 10 endpoints
+85,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 18/30 handed out 10 endpoints
+90,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 19/30 handed out 10 endpoints
+95,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 20/30 handed out 10 endpoints
+100,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 21/30 handed out 10 endpoints
+105,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 22/30 handed out 10 endpoints
+110,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 23/30 handed out 10 endpoints
+115,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 24/30 handed out 10 endpoints
+120,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 25/30 handed out 10 endpoints
+125,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 26/30 handed out 10 endpoints
+130,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 27/30 handed out 10 endpoints
+135,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 28/30 handed out 10 endpoints
+140,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 29/30 handed out 10 endpoints
+145,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,redirected,redirect 30/30 handed out 10 endpoints
+150,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+155,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+160,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+165,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+170,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+175,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+180,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+185,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+190,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+195,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+200,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+205,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+210,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+215,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+220,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+225,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+230,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+235,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+240,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)
+245,a-000,198.51.100.10,key-a0000,198.51.100.10:51235,in,redirect,C09_redirect_cap,rejected_cap,maxRedirects 30 already used on this connection (Logic.h:1274)

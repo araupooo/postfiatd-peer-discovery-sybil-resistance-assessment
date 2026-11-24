@@ -1,0 +1,733 @@
+t_ms,actor,ip,key,endpoint,direction,event,control,outcome,detail
+0,node,,,,,autoconnect,C10_autoconnect,batch_bootcache,20 bootcache endpoints handed out (Logic.h:588-600)
+1000,d-000,198.51.100.100,key-d0000,198.51.100.100:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-000,198.51.100.100,key-d0000,198.51.100.100:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-000,198.51.100.100,key-d0000,198.51.100.100:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-001,198.51.100.101,key-d0001,198.51.100.101:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-001,198.51.100.101,key-d0001,198.51.100.101:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-001,198.51.100.101,key-d0001,198.51.100.101:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-002,198.51.100.102,key-d0002,198.51.100.102:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-002,198.51.100.102,key-d0002,198.51.100.102:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-002,198.51.100.102,key-d0002,198.51.100.102:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-003,198.51.100.103,key-d0003,198.51.100.103:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-003,198.51.100.103,key-d0003,198.51.100.103:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-003,198.51.100.103,key-d0003,198.51.100.103:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-004,198.51.100.104,key-d0004,198.51.100.104:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-004,198.51.100.104,key-d0004,198.51.100.104:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-004,198.51.100.104,key-d0004,198.51.100.104:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-005,198.51.100.105,key-d0005,198.51.100.105:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-005,198.51.100.105,key-d0005,198.51.100.105:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-005,198.51.100.105,key-d0005,198.51.100.105:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-006,198.51.100.106,key-d0006,198.51.100.106:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-006,198.51.100.106,key-d0006,198.51.100.106:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-006,198.51.100.106,key-d0006,198.51.100.106:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-007,198.51.100.107,key-d0007,198.51.100.107:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-007,198.51.100.107,key-d0007,198.51.100.107:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-007,198.51.100.107,key-d0007,198.51.100.107:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-008,198.51.100.108,key-d0008,198.51.100.108:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-008,198.51.100.108,key-d0008,198.51.100.108:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-008,198.51.100.108,key-d0008,198.51.100.108:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-009,198.51.100.109,key-d0009,198.51.100.109:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-009,198.51.100.109,key-d0009,198.51.100.109:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-009,198.51.100.109,key-d0009,198.51.100.109:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-010,198.51.100.110,key-d0010,198.51.100.110:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-010,198.51.100.110,key-d0010,198.51.100.110:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-010,198.51.100.110,key-d0010,198.51.100.110:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-011,198.51.100.111,key-d0011,198.51.100.111:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-011,198.51.100.111,key-d0011,198.51.100.111:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-011,198.51.100.111,key-d0011,198.51.100.111:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-012,198.51.100.112,key-d0012,198.51.100.112:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-012,198.51.100.112,key-d0012,198.51.100.112:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-012,198.51.100.112,key-d0012,198.51.100.112:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-013,198.51.100.113,key-d0013,198.51.100.113:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-013,198.51.100.113,key-d0013,198.51.100.113:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-013,198.51.100.113,key-d0013,198.51.100.113:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-014,198.51.100.114,key-d0014,198.51.100.114:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-014,198.51.100.114,key-d0014,198.51.100.114:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-014,198.51.100.114,key-d0014,198.51.100.114:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-015,198.51.100.115,key-d0015,198.51.100.115:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-015,198.51.100.115,key-d0015,198.51.100.115:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-015,198.51.100.115,key-d0015,198.51.100.115:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-016,198.51.100.116,key-d0016,198.51.100.116:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-016,198.51.100.116,key-d0016,198.51.100.116:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-016,198.51.100.116,key-d0016,198.51.100.116:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-017,198.51.100.117,key-d0017,198.51.100.117:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-017,198.51.100.117,key-d0017,198.51.100.117:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-017,198.51.100.117,key-d0017,198.51.100.117:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-018,198.51.100.118,key-d0018,198.51.100.118:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-018,198.51.100.118,key-d0018,198.51.100.118:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-018,198.51.100.118,key-d0018,198.51.100.118:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+1000,d-019,198.51.100.119,key-d0019,198.51.100.119:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+1000,d-019,198.51.100.119,key-d0019,198.51.100.119:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+1000,d-019,198.51.100.119,key-d0019,198.51.100.119:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+10000,node,,,,,autoconnect,C10_autoconnect,batch_bootcache,20 bootcache endpoints handed out (Logic.h:588-600)
+11000,d-020,198.51.100.120,key-d0020,198.51.100.120:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-020,198.51.100.120,key-d0020,198.51.100.120:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-020,198.51.100.120,key-d0020,198.51.100.120:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-021,198.51.100.121,key-d0021,198.51.100.121:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-021,198.51.100.121,key-d0021,198.51.100.121:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-021,198.51.100.121,key-d0021,198.51.100.121:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-022,198.51.100.122,key-d0022,198.51.100.122:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-022,198.51.100.122,key-d0022,198.51.100.122:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-022,198.51.100.122,key-d0022,198.51.100.122:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-023,198.51.100.123,key-d0023,198.51.100.123:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-023,198.51.100.123,key-d0023,198.51.100.123:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-023,198.51.100.123,key-d0023,198.51.100.123:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-024,198.51.100.124,key-d0024,198.51.100.124:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-024,198.51.100.124,key-d0024,198.51.100.124:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-024,198.51.100.124,key-d0024,198.51.100.124:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-025,198.51.100.125,key-d0025,198.51.100.125:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-025,198.51.100.125,key-d0025,198.51.100.125:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-025,198.51.100.125,key-d0025,198.51.100.125:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-026,198.51.100.126,key-d0026,198.51.100.126:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-026,198.51.100.126,key-d0026,198.51.100.126:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-026,198.51.100.126,key-d0026,198.51.100.126:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-027,198.51.100.127,key-d0027,198.51.100.127:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-027,198.51.100.127,key-d0027,198.51.100.127:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-027,198.51.100.127,key-d0027,198.51.100.127:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-028,198.51.100.128,key-d0028,198.51.100.128:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-028,198.51.100.128,key-d0028,198.51.100.128:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-028,198.51.100.128,key-d0028,198.51.100.128:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-029,198.51.100.129,key-d0029,198.51.100.129:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-029,198.51.100.129,key-d0029,198.51.100.129:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-029,198.51.100.129,key-d0029,198.51.100.129:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-030,198.51.100.130,key-d0030,198.51.100.130:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-030,198.51.100.130,key-d0030,198.51.100.130:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-030,198.51.100.130,key-d0030,198.51.100.130:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-031,198.51.100.131,key-d0031,198.51.100.131:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-031,198.51.100.131,key-d0031,198.51.100.131:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-031,198.51.100.131,key-d0031,198.51.100.131:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-032,198.51.100.132,key-d0032,198.51.100.132:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-032,198.51.100.132,key-d0032,198.51.100.132:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-032,198.51.100.132,key-d0032,198.51.100.132:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-033,198.51.100.133,key-d0033,198.51.100.133:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-033,198.51.100.133,key-d0033,198.51.100.133:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-033,198.51.100.133,key-d0033,198.51.100.133:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-034,198.51.100.134,key-d0034,198.51.100.134:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-034,198.51.100.134,key-d0034,198.51.100.134:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-034,198.51.100.134,key-d0034,198.51.100.134:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-035,198.51.100.135,key-d0035,198.51.100.135:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-035,198.51.100.135,key-d0035,198.51.100.135:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-035,198.51.100.135,key-d0035,198.51.100.135:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-036,198.51.100.136,key-d0036,198.51.100.136:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-036,198.51.100.136,key-d0036,198.51.100.136:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-036,198.51.100.136,key-d0036,198.51.100.136:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-037,198.51.100.137,key-d0037,198.51.100.137:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-037,198.51.100.137,key-d0037,198.51.100.137:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-037,198.51.100.137,key-d0037,198.51.100.137:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-038,198.51.100.138,key-d0038,198.51.100.138:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-038,198.51.100.138,key-d0038,198.51.100.138:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-038,198.51.100.138,key-d0038,198.51.100.138:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+11000,d-039,198.51.100.139,key-d0039,198.51.100.139:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+11000,d-039,198.51.100.139,key-d0039,198.51.100.139:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+11000,d-039,198.51.100.139,key-d0039,198.51.100.139:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+20000,node,,,,,autoconnect,C10_autoconnect,batch_bootcache,20 bootcache endpoints handed out (Logic.h:588-600)
+21000,d-040,198.51.100.140,key-d0040,198.51.100.140:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-040,198.51.100.140,key-d0040,198.51.100.140:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-040,198.51.100.140,key-d0040,198.51.100.140:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-041,198.51.100.141,key-d0041,198.51.100.141:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-041,198.51.100.141,key-d0041,198.51.100.141:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-041,198.51.100.141,key-d0041,198.51.100.141:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-042,198.51.100.142,key-d0042,198.51.100.142:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-042,198.51.100.142,key-d0042,198.51.100.142:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-042,198.51.100.142,key-d0042,198.51.100.142:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-043,198.51.100.143,key-d0043,198.51.100.143:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-043,198.51.100.143,key-d0043,198.51.100.143:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-043,198.51.100.143,key-d0043,198.51.100.143:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-044,198.51.100.144,key-d0044,198.51.100.144:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-044,198.51.100.144,key-d0044,198.51.100.144:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-044,198.51.100.144,key-d0044,198.51.100.144:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-045,198.51.100.145,key-d0045,198.51.100.145:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-045,198.51.100.145,key-d0045,198.51.100.145:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-045,198.51.100.145,key-d0045,198.51.100.145:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-046,198.51.100.146,key-d0046,198.51.100.146:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-046,198.51.100.146,key-d0046,198.51.100.146:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-046,198.51.100.146,key-d0046,198.51.100.146:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-047,198.51.100.147,key-d0047,198.51.100.147:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-047,198.51.100.147,key-d0047,198.51.100.147:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-047,198.51.100.147,key-d0047,198.51.100.147:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-048,198.51.100.148,key-d0048,198.51.100.148:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-048,198.51.100.148,key-d0048,198.51.100.148:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-048,198.51.100.148,key-d0048,198.51.100.148:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-049,198.51.100.149,key-d0049,198.51.100.149:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-049,198.51.100.149,key-d0049,198.51.100.149:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-049,198.51.100.149,key-d0049,198.51.100.149:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-050,198.51.100.150,key-d0050,198.51.100.150:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-050,198.51.100.150,key-d0050,198.51.100.150:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-050,198.51.100.150,key-d0050,198.51.100.150:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-051,198.51.100.151,key-d0051,198.51.100.151:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-051,198.51.100.151,key-d0051,198.51.100.151:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-051,198.51.100.151,key-d0051,198.51.100.151:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-052,198.51.100.152,key-d0052,198.51.100.152:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-052,198.51.100.152,key-d0052,198.51.100.152:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-052,198.51.100.152,key-d0052,198.51.100.152:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-053,198.51.100.153,key-d0053,198.51.100.153:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-053,198.51.100.153,key-d0053,198.51.100.153:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-053,198.51.100.153,key-d0053,198.51.100.153:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-054,198.51.100.154,key-d0054,198.51.100.154:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-054,198.51.100.154,key-d0054,198.51.100.154:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-054,198.51.100.154,key-d0054,198.51.100.154:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-055,198.51.100.155,key-d0055,198.51.100.155:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-055,198.51.100.155,key-d0055,198.51.100.155:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-055,198.51.100.155,key-d0055,198.51.100.155:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-056,198.51.100.156,key-d0056,198.51.100.156:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-056,198.51.100.156,key-d0056,198.51.100.156:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-056,198.51.100.156,key-d0056,198.51.100.156:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-057,198.51.100.157,key-d0057,198.51.100.157:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-057,198.51.100.157,key-d0057,198.51.100.157:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-057,198.51.100.157,key-d0057,198.51.100.157:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-058,198.51.100.158,key-d0058,198.51.100.158:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-058,198.51.100.158,key-d0058,198.51.100.158:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-058,198.51.100.158,key-d0058,198.51.100.158:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+21000,d-059,198.51.100.159,key-d0059,198.51.100.159:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+21000,d-059,198.51.100.159,key-d0059,198.51.100.159:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+21000,d-059,198.51.100.159,key-d0059,198.51.100.159:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+30000,node,,,,,autoconnect,C10_autoconnect,batch_bootcache,20 bootcache endpoints handed out (Logic.h:588-600)
+31000,d-060,198.51.100.160,key-d0060,198.51.100.160:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-060,198.51.100.160,key-d0060,198.51.100.160:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-060,198.51.100.160,key-d0060,198.51.100.160:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-061,198.51.100.161,key-d0061,198.51.100.161:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-061,198.51.100.161,key-d0061,198.51.100.161:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-061,198.51.100.161,key-d0061,198.51.100.161:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-062,198.51.100.162,key-d0062,198.51.100.162:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-062,198.51.100.162,key-d0062,198.51.100.162:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-062,198.51.100.162,key-d0062,198.51.100.162:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-063,198.51.100.163,key-d0063,198.51.100.163:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-063,198.51.100.163,key-d0063,198.51.100.163:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-063,198.51.100.163,key-d0063,198.51.100.163:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-064,198.51.100.164,key-d0064,198.51.100.164:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-064,198.51.100.164,key-d0064,198.51.100.164:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-064,198.51.100.164,key-d0064,198.51.100.164:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-065,198.51.100.165,key-d0065,198.51.100.165:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-065,198.51.100.165,key-d0065,198.51.100.165:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-065,198.51.100.165,key-d0065,198.51.100.165:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-066,198.51.100.166,key-d0066,198.51.100.166:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-066,198.51.100.166,key-d0066,198.51.100.166:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-066,198.51.100.166,key-d0066,198.51.100.166:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-067,198.51.100.167,key-d0067,198.51.100.167:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-067,198.51.100.167,key-d0067,198.51.100.167:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-067,198.51.100.167,key-d0067,198.51.100.167:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-068,198.51.100.168,key-d0068,198.51.100.168:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-068,198.51.100.168,key-d0068,198.51.100.168:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-068,198.51.100.168,key-d0068,198.51.100.168:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-069,198.51.100.169,key-d0069,198.51.100.169:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-069,198.51.100.169,key-d0069,198.51.100.169:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-069,198.51.100.169,key-d0069,198.51.100.169:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-070,198.51.100.170,key-d0070,198.51.100.170:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-070,198.51.100.170,key-d0070,198.51.100.170:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-070,198.51.100.170,key-d0070,198.51.100.170:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-071,198.51.100.171,key-d0071,198.51.100.171:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-071,198.51.100.171,key-d0071,198.51.100.171:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-071,198.51.100.171,key-d0071,198.51.100.171:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-072,198.51.100.172,key-d0072,198.51.100.172:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-072,198.51.100.172,key-d0072,198.51.100.172:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-072,198.51.100.172,key-d0072,198.51.100.172:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-073,198.51.100.173,key-d0073,198.51.100.173:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-073,198.51.100.173,key-d0073,198.51.100.173:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-073,198.51.100.173,key-d0073,198.51.100.173:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-074,198.51.100.174,key-d0074,198.51.100.174:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-074,198.51.100.174,key-d0074,198.51.100.174:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-074,198.51.100.174,key-d0074,198.51.100.174:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-075,198.51.100.175,key-d0075,198.51.100.175:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-075,198.51.100.175,key-d0075,198.51.100.175:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-075,198.51.100.175,key-d0075,198.51.100.175:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-076,198.51.100.176,key-d0076,198.51.100.176:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-076,198.51.100.176,key-d0076,198.51.100.176:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-076,198.51.100.176,key-d0076,198.51.100.176:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-077,198.51.100.177,key-d0077,198.51.100.177:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-077,198.51.100.177,key-d0077,198.51.100.177:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-077,198.51.100.177,key-d0077,198.51.100.177:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-078,198.51.100.178,key-d0078,198.51.100.178:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-078,198.51.100.178,key-d0078,198.51.100.178:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-078,198.51.100.178,key-d0078,198.51.100.178:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+31000,d-079,198.51.100.179,key-d0079,198.51.100.179:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+31000,d-079,198.51.100.179,key-d0079,198.51.100.179:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+31000,d-079,198.51.100.179,key-d0079,198.51.100.179:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+40000,node,,,,,autoconnect,C10_autoconnect,batch_bootcache,20 bootcache endpoints handed out (Logic.h:588-600)
+41000,d-080,198.51.100.180,key-d0080,198.51.100.180:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-080,198.51.100.180,key-d0080,198.51.100.180:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-080,198.51.100.180,key-d0080,198.51.100.180:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-081,198.51.100.181,key-d0081,198.51.100.181:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-081,198.51.100.181,key-d0081,198.51.100.181:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-081,198.51.100.181,key-d0081,198.51.100.181:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-082,198.51.100.182,key-d0082,198.51.100.182:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-082,198.51.100.182,key-d0082,198.51.100.182:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-082,198.51.100.182,key-d0082,198.51.100.182:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-083,198.51.100.183,key-d0083,198.51.100.183:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-083,198.51.100.183,key-d0083,198.51.100.183:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-083,198.51.100.183,key-d0083,198.51.100.183:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-084,198.51.100.184,key-d0084,198.51.100.184:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-084,198.51.100.184,key-d0084,198.51.100.184:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-084,198.51.100.184,key-d0084,198.51.100.184:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-085,198.51.100.185,key-d0085,198.51.100.185:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-085,198.51.100.185,key-d0085,198.51.100.185:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-085,198.51.100.185,key-d0085,198.51.100.185:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-086,198.51.100.186,key-d0086,198.51.100.186:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-086,198.51.100.186,key-d0086,198.51.100.186:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-086,198.51.100.186,key-d0086,198.51.100.186:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-087,198.51.100.187,key-d0087,198.51.100.187:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-087,198.51.100.187,key-d0087,198.51.100.187:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-087,198.51.100.187,key-d0087,198.51.100.187:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-088,198.51.100.188,key-d0088,198.51.100.188:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-088,198.51.100.188,key-d0088,198.51.100.188:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-088,198.51.100.188,key-d0088,198.51.100.188:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-089,198.51.100.189,key-d0089,198.51.100.189:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-089,198.51.100.189,key-d0089,198.51.100.189:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-089,198.51.100.189,key-d0089,198.51.100.189:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-090,198.51.100.190,key-d0090,198.51.100.190:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-090,198.51.100.190,key-d0090,198.51.100.190:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-090,198.51.100.190,key-d0090,198.51.100.190:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-091,198.51.100.191,key-d0091,198.51.100.191:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-091,198.51.100.191,key-d0091,198.51.100.191:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-091,198.51.100.191,key-d0091,198.51.100.191:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-092,198.51.100.192,key-d0092,198.51.100.192:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-092,198.51.100.192,key-d0092,198.51.100.192:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-092,198.51.100.192,key-d0092,198.51.100.192:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-093,198.51.100.193,key-d0093,198.51.100.193:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-093,198.51.100.193,key-d0093,198.51.100.193:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-093,198.51.100.193,key-d0093,198.51.100.193:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-094,198.51.100.194,key-d0094,198.51.100.194:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-094,198.51.100.194,key-d0094,198.51.100.194:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-094,198.51.100.194,key-d0094,198.51.100.194:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-095,198.51.100.195,key-d0095,198.51.100.195:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-095,198.51.100.195,key-d0095,198.51.100.195:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-095,198.51.100.195,key-d0095,198.51.100.195:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-096,198.51.100.196,key-d0096,198.51.100.196:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-096,198.51.100.196,key-d0096,198.51.100.196:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-096,198.51.100.196,key-d0096,198.51.100.196:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-097,198.51.100.197,key-d0097,198.51.100.197:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-097,198.51.100.197,key-d0097,198.51.100.197:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-097,198.51.100.197,key-d0097,198.51.100.197:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-098,198.51.100.198,key-d0098,198.51.100.198:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-098,198.51.100.198,key-d0098,198.51.100.198:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-098,198.51.100.198,key-d0098,198.51.100.198:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+41000,d-099,198.51.100.199,key-d0099,198.51.100.199:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+41000,d-099,198.51.100.199,key-d0099,198.51.100.199:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+41000,d-099,198.51.100.199,key-d0099,198.51.100.199:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+50000,node,,,,,autoconnect,C10_autoconnect,batch_bootcache,20 bootcache endpoints handed out (Logic.h:588-600)
+51000,d-100,198.51.100.200,key-d0100,198.51.100.200:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-100,198.51.100.200,key-d0100,198.51.100.200:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-100,198.51.100.200,key-d0100,198.51.100.200:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-101,198.51.100.201,key-d0101,198.51.100.201:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-101,198.51.100.201,key-d0101,198.51.100.201:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-101,198.51.100.201,key-d0101,198.51.100.201:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-102,198.51.100.202,key-d0102,198.51.100.202:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-102,198.51.100.202,key-d0102,198.51.100.202:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-102,198.51.100.202,key-d0102,198.51.100.202:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-103,198.51.100.203,key-d0103,198.51.100.203:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-103,198.51.100.203,key-d0103,198.51.100.203:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-103,198.51.100.203,key-d0103,198.51.100.203:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-104,198.51.100.204,key-d0104,198.51.100.204:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-104,198.51.100.204,key-d0104,198.51.100.204:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-104,198.51.100.204,key-d0104,198.51.100.204:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-105,198.51.100.205,key-d0105,198.51.100.205:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-105,198.51.100.205,key-d0105,198.51.100.205:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-105,198.51.100.205,key-d0105,198.51.100.205:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-106,198.51.100.206,key-d0106,198.51.100.206:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-106,198.51.100.206,key-d0106,198.51.100.206:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-106,198.51.100.206,key-d0106,198.51.100.206:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-107,198.51.100.207,key-d0107,198.51.100.207:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-107,198.51.100.207,key-d0107,198.51.100.207:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-107,198.51.100.207,key-d0107,198.51.100.207:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-108,198.51.100.208,key-d0108,198.51.100.208:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-108,198.51.100.208,key-d0108,198.51.100.208:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-108,198.51.100.208,key-d0108,198.51.100.208:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-109,198.51.100.209,key-d0109,198.51.100.209:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-109,198.51.100.209,key-d0109,198.51.100.209:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-109,198.51.100.209,key-d0109,198.51.100.209:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-110,198.51.100.210,key-d0110,198.51.100.210:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-110,198.51.100.210,key-d0110,198.51.100.210:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-110,198.51.100.210,key-d0110,198.51.100.210:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-111,198.51.100.211,key-d0111,198.51.100.211:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-111,198.51.100.211,key-d0111,198.51.100.211:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-111,198.51.100.211,key-d0111,198.51.100.211:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-112,198.51.100.212,key-d0112,198.51.100.212:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-112,198.51.100.212,key-d0112,198.51.100.212:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-112,198.51.100.212,key-d0112,198.51.100.212:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-113,198.51.100.213,key-d0113,198.51.100.213:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-113,198.51.100.213,key-d0113,198.51.100.213:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-113,198.51.100.213,key-d0113,198.51.100.213:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-114,198.51.100.214,key-d0114,198.51.100.214:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-114,198.51.100.214,key-d0114,198.51.100.214:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-114,198.51.100.214,key-d0114,198.51.100.214:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-115,198.51.100.215,key-d0115,198.51.100.215:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-115,198.51.100.215,key-d0115,198.51.100.215:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-115,198.51.100.215,key-d0115,198.51.100.215:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-116,198.51.100.216,key-d0116,198.51.100.216:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-116,198.51.100.216,key-d0116,198.51.100.216:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-116,198.51.100.216,key-d0116,198.51.100.216:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-117,198.51.100.217,key-d0117,198.51.100.217:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-117,198.51.100.217,key-d0117,198.51.100.217:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-117,198.51.100.217,key-d0117,198.51.100.217:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-118,198.51.100.218,key-d0118,198.51.100.218:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-118,198.51.100.218,key-d0118,198.51.100.218:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-118,198.51.100.218,key-d0118,198.51.100.218:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+51000,d-119,198.51.100.219,key-d0119,198.51.100.219:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+51000,d-119,198.51.100.219,key-d0119,198.51.100.219:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+51000,d-119,198.51.100.219,key-d0119,198.51.100.219:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+60000,node,,,,,autoconnect,C10_autoconnect,batch_bootcache,20 bootcache endpoints handed out (Logic.h:588-600)
+61000,d-120,198.51.100.220,key-d0120,198.51.100.220:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-120,198.51.100.220,key-d0120,198.51.100.220:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-120,198.51.100.220,key-d0120,198.51.100.220:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-121,198.51.100.221,key-d0121,198.51.100.221:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-121,198.51.100.221,key-d0121,198.51.100.221:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-121,198.51.100.221,key-d0121,198.51.100.221:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-122,198.51.100.222,key-d0122,198.51.100.222:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-122,198.51.100.222,key-d0122,198.51.100.222:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-122,198.51.100.222,key-d0122,198.51.100.222:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-123,198.51.100.223,key-d0123,198.51.100.223:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-123,198.51.100.223,key-d0123,198.51.100.223:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-123,198.51.100.223,key-d0123,198.51.100.223:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-124,198.51.100.224,key-d0124,198.51.100.224:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-124,198.51.100.224,key-d0124,198.51.100.224:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-124,198.51.100.224,key-d0124,198.51.100.224:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-125,198.51.100.225,key-d0125,198.51.100.225:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-125,198.51.100.225,key-d0125,198.51.100.225:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-125,198.51.100.225,key-d0125,198.51.100.225:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-126,198.51.100.226,key-d0126,198.51.100.226:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-126,198.51.100.226,key-d0126,198.51.100.226:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-126,198.51.100.226,key-d0126,198.51.100.226:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-127,198.51.100.227,key-d0127,198.51.100.227:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-127,198.51.100.227,key-d0127,198.51.100.227:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-127,198.51.100.227,key-d0127,198.51.100.227:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-128,198.51.100.228,key-d0128,198.51.100.228:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-128,198.51.100.228,key-d0128,198.51.100.228:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-128,198.51.100.228,key-d0128,198.51.100.228:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-129,198.51.100.229,key-d0129,198.51.100.229:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-129,198.51.100.229,key-d0129,198.51.100.229:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-129,198.51.100.229,key-d0129,198.51.100.229:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-130,198.51.100.230,key-d0130,198.51.100.230:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-130,198.51.100.230,key-d0130,198.51.100.230:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-130,198.51.100.230,key-d0130,198.51.100.230:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-131,198.51.100.231,key-d0131,198.51.100.231:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-131,198.51.100.231,key-d0131,198.51.100.231:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-131,198.51.100.231,key-d0131,198.51.100.231:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-132,198.51.100.232,key-d0132,198.51.100.232:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-132,198.51.100.232,key-d0132,198.51.100.232:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-132,198.51.100.232,key-d0132,198.51.100.232:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-133,198.51.100.233,key-d0133,198.51.100.233:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-133,198.51.100.233,key-d0133,198.51.100.233:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-133,198.51.100.233,key-d0133,198.51.100.233:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-134,198.51.100.234,key-d0134,198.51.100.234:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-134,198.51.100.234,key-d0134,198.51.100.234:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-134,198.51.100.234,key-d0134,198.51.100.234:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-135,198.51.100.235,key-d0135,198.51.100.235:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-135,198.51.100.235,key-d0135,198.51.100.235:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-135,198.51.100.235,key-d0135,198.51.100.235:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-136,198.51.100.236,key-d0136,198.51.100.236:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-136,198.51.100.236,key-d0136,198.51.100.236:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-136,198.51.100.236,key-d0136,198.51.100.236:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-137,198.51.100.237,key-d0137,198.51.100.237:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-137,198.51.100.237,key-d0137,198.51.100.237:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-137,198.51.100.237,key-d0137,198.51.100.237:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-138,198.51.100.238,key-d0138,198.51.100.238:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-138,198.51.100.238,key-d0138,198.51.100.238:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-138,198.51.100.238,key-d0138,198.51.100.238:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+61000,d-139,198.51.100.239,key-d0139,198.51.100.239:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 1 s, squelch 60 s)"
+61000,d-139,198.51.100.239,key-d0139,198.51.100.239:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+61000,d-139,198.51.100.239,key-d0139,198.51.100.239:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+70000,node,,,,,autoconnect,C10_autoconnect,batch_bootcache,20 bootcache endpoints handed out (Logic.h:588-600)
+71000,d-000,198.51.100.100,key-d0000,198.51.100.100:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-000,198.51.100.100,key-d0000,198.51.100.100:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-000,198.51.100.100,key-d0000,198.51.100.100:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-001,198.51.100.101,key-d0001,198.51.100.101:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-001,198.51.100.101,key-d0001,198.51.100.101:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-001,198.51.100.101,key-d0001,198.51.100.101:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-002,198.51.100.102,key-d0002,198.51.100.102:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-002,198.51.100.102,key-d0002,198.51.100.102:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-002,198.51.100.102,key-d0002,198.51.100.102:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-003,198.51.100.103,key-d0003,198.51.100.103:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-003,198.51.100.103,key-d0003,198.51.100.103:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-003,198.51.100.103,key-d0003,198.51.100.103:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-004,198.51.100.104,key-d0004,198.51.100.104:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-004,198.51.100.104,key-d0004,198.51.100.104:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-004,198.51.100.104,key-d0004,198.51.100.104:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-005,198.51.100.105,key-d0005,198.51.100.105:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-005,198.51.100.105,key-d0005,198.51.100.105:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-005,198.51.100.105,key-d0005,198.51.100.105:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-006,198.51.100.106,key-d0006,198.51.100.106:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-006,198.51.100.106,key-d0006,198.51.100.106:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-006,198.51.100.106,key-d0006,198.51.100.106:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-007,198.51.100.107,key-d0007,198.51.100.107:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-007,198.51.100.107,key-d0007,198.51.100.107:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-007,198.51.100.107,key-d0007,198.51.100.107:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-008,198.51.100.108,key-d0008,198.51.100.108:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-008,198.51.100.108,key-d0008,198.51.100.108:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-008,198.51.100.108,key-d0008,198.51.100.108:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-009,198.51.100.109,key-d0009,198.51.100.109:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-009,198.51.100.109,key-d0009,198.51.100.109:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-009,198.51.100.109,key-d0009,198.51.100.109:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-010,198.51.100.110,key-d0010,198.51.100.110:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-010,198.51.100.110,key-d0010,198.51.100.110:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-010,198.51.100.110,key-d0010,198.51.100.110:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-011,198.51.100.111,key-d0011,198.51.100.111:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-011,198.51.100.111,key-d0011,198.51.100.111:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-011,198.51.100.111,key-d0011,198.51.100.111:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-012,198.51.100.112,key-d0012,198.51.100.112:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-012,198.51.100.112,key-d0012,198.51.100.112:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-012,198.51.100.112,key-d0012,198.51.100.112:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-013,198.51.100.113,key-d0013,198.51.100.113:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-013,198.51.100.113,key-d0013,198.51.100.113:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-013,198.51.100.113,key-d0013,198.51.100.113:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-014,198.51.100.114,key-d0014,198.51.100.114:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-014,198.51.100.114,key-d0014,198.51.100.114:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-014,198.51.100.114,key-d0014,198.51.100.114:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-015,198.51.100.115,key-d0015,198.51.100.115:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-015,198.51.100.115,key-d0015,198.51.100.115:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-015,198.51.100.115,key-d0015,198.51.100.115:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-016,198.51.100.116,key-d0016,198.51.100.116:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-016,198.51.100.116,key-d0016,198.51.100.116:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-016,198.51.100.116,key-d0016,198.51.100.116:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-017,198.51.100.117,key-d0017,198.51.100.117:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-017,198.51.100.117,key-d0017,198.51.100.117:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-017,198.51.100.117,key-d0017,198.51.100.117:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-018,198.51.100.118,key-d0018,198.51.100.118:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-018,198.51.100.118,key-d0018,198.51.100.118:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-018,198.51.100.118,key-d0018,198.51.100.118:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+71000,d-019,198.51.100.119,key-d0019,198.51.100.119:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+71000,d-019,198.51.100.119,key-d0019,198.51.100.119:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+71000,d-019,198.51.100.119,key-d0019,198.51.100.119:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+80000,node,,,,,autoconnect,C10_autoconnect,batch_bootcache,20 bootcache endpoints handed out (Logic.h:588-600)
+81000,d-020,198.51.100.120,key-d0020,198.51.100.120:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-020,198.51.100.120,key-d0020,198.51.100.120:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-020,198.51.100.120,key-d0020,198.51.100.120:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-021,198.51.100.121,key-d0021,198.51.100.121:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-021,198.51.100.121,key-d0021,198.51.100.121:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-021,198.51.100.121,key-d0021,198.51.100.121:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-022,198.51.100.122,key-d0022,198.51.100.122:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-022,198.51.100.122,key-d0022,198.51.100.122:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-022,198.51.100.122,key-d0022,198.51.100.122:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-023,198.51.100.123,key-d0023,198.51.100.123:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-023,198.51.100.123,key-d0023,198.51.100.123:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-023,198.51.100.123,key-d0023,198.51.100.123:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-024,198.51.100.124,key-d0024,198.51.100.124:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-024,198.51.100.124,key-d0024,198.51.100.124:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-024,198.51.100.124,key-d0024,198.51.100.124:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-025,198.51.100.125,key-d0025,198.51.100.125:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-025,198.51.100.125,key-d0025,198.51.100.125:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-025,198.51.100.125,key-d0025,198.51.100.125:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-026,198.51.100.126,key-d0026,198.51.100.126:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-026,198.51.100.126,key-d0026,198.51.100.126:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-026,198.51.100.126,key-d0026,198.51.100.126:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-027,198.51.100.127,key-d0027,198.51.100.127:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-027,198.51.100.127,key-d0027,198.51.100.127:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-027,198.51.100.127,key-d0027,198.51.100.127:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-028,198.51.100.128,key-d0028,198.51.100.128:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-028,198.51.100.128,key-d0028,198.51.100.128:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-028,198.51.100.128,key-d0028,198.51.100.128:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-029,198.51.100.129,key-d0029,198.51.100.129:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-029,198.51.100.129,key-d0029,198.51.100.129:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-029,198.51.100.129,key-d0029,198.51.100.129:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-030,198.51.100.130,key-d0030,198.51.100.130:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-030,198.51.100.130,key-d0030,198.51.100.130:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-030,198.51.100.130,key-d0030,198.51.100.130:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-031,198.51.100.131,key-d0031,198.51.100.131:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-031,198.51.100.131,key-d0031,198.51.100.131:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-031,198.51.100.131,key-d0031,198.51.100.131:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-032,198.51.100.132,key-d0032,198.51.100.132:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-032,198.51.100.132,key-d0032,198.51.100.132:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-032,198.51.100.132,key-d0032,198.51.100.132:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-033,198.51.100.133,key-d0033,198.51.100.133:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-033,198.51.100.133,key-d0033,198.51.100.133:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-033,198.51.100.133,key-d0033,198.51.100.133:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-034,198.51.100.134,key-d0034,198.51.100.134:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-034,198.51.100.134,key-d0034,198.51.100.134:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-034,198.51.100.134,key-d0034,198.51.100.134:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-035,198.51.100.135,key-d0035,198.51.100.135:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-035,198.51.100.135,key-d0035,198.51.100.135:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-035,198.51.100.135,key-d0035,198.51.100.135:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-036,198.51.100.136,key-d0036,198.51.100.136:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-036,198.51.100.136,key-d0036,198.51.100.136:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-036,198.51.100.136,key-d0036,198.51.100.136:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-037,198.51.100.137,key-d0037,198.51.100.137:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-037,198.51.100.137,key-d0037,198.51.100.137:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-037,198.51.100.137,key-d0037,198.51.100.137:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-038,198.51.100.138,key-d0038,198.51.100.138:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-038,198.51.100.138,key-d0038,198.51.100.138:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-038,198.51.100.138,key-d0038,198.51.100.138:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+81000,d-039,198.51.100.139,key-d0039,198.51.100.139:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+81000,d-039,198.51.100.139,key-d0039,198.51.100.139:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+81000,d-039,198.51.100.139,key-d0039,198.51.100.139:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+90000,node,,,,,autoconnect,C10_autoconnect,batch_bootcache,20 bootcache endpoints handed out (Logic.h:588-600)
+91000,d-040,198.51.100.140,key-d0040,198.51.100.140:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-040,198.51.100.140,key-d0040,198.51.100.140:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-040,198.51.100.140,key-d0040,198.51.100.140:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-041,198.51.100.141,key-d0041,198.51.100.141:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-041,198.51.100.141,key-d0041,198.51.100.141:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-041,198.51.100.141,key-d0041,198.51.100.141:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-042,198.51.100.142,key-d0042,198.51.100.142:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-042,198.51.100.142,key-d0042,198.51.100.142:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-042,198.51.100.142,key-d0042,198.51.100.142:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-043,198.51.100.143,key-d0043,198.51.100.143:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-043,198.51.100.143,key-d0043,198.51.100.143:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-043,198.51.100.143,key-d0043,198.51.100.143:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-044,198.51.100.144,key-d0044,198.51.100.144:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-044,198.51.100.144,key-d0044,198.51.100.144:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-044,198.51.100.144,key-d0044,198.51.100.144:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-045,198.51.100.145,key-d0045,198.51.100.145:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-045,198.51.100.145,key-d0045,198.51.100.145:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-045,198.51.100.145,key-d0045,198.51.100.145:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-046,198.51.100.146,key-d0046,198.51.100.146:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-046,198.51.100.146,key-d0046,198.51.100.146:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-046,198.51.100.146,key-d0046,198.51.100.146:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-047,198.51.100.147,key-d0047,198.51.100.147:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-047,198.51.100.147,key-d0047,198.51.100.147:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-047,198.51.100.147,key-d0047,198.51.100.147:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-048,198.51.100.148,key-d0048,198.51.100.148:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-048,198.51.100.148,key-d0048,198.51.100.148:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-048,198.51.100.148,key-d0048,198.51.100.148:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-049,198.51.100.149,key-d0049,198.51.100.149:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-049,198.51.100.149,key-d0049,198.51.100.149:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-049,198.51.100.149,key-d0049,198.51.100.149:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-050,198.51.100.150,key-d0050,198.51.100.150:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-050,198.51.100.150,key-d0050,198.51.100.150:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-050,198.51.100.150,key-d0050,198.51.100.150:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-051,198.51.100.151,key-d0051,198.51.100.151:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-051,198.51.100.151,key-d0051,198.51.100.151:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-051,198.51.100.151,key-d0051,198.51.100.151:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-052,198.51.100.152,key-d0052,198.51.100.152:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-052,198.51.100.152,key-d0052,198.51.100.152:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-052,198.51.100.152,key-d0052,198.51.100.152:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-053,198.51.100.153,key-d0053,198.51.100.153:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-053,198.51.100.153,key-d0053,198.51.100.153:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-053,198.51.100.153,key-d0053,198.51.100.153:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-054,198.51.100.154,key-d0054,198.51.100.154:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-054,198.51.100.154,key-d0054,198.51.100.154:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-054,198.51.100.154,key-d0054,198.51.100.154:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-055,198.51.100.155,key-d0055,198.51.100.155:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-055,198.51.100.155,key-d0055,198.51.100.155:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-055,198.51.100.155,key-d0055,198.51.100.155:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-056,198.51.100.156,key-d0056,198.51.100.156:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-056,198.51.100.156,key-d0056,198.51.100.156:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-056,198.51.100.156,key-d0056,198.51.100.156:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-057,198.51.100.157,key-d0057,198.51.100.157:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-057,198.51.100.157,key-d0057,198.51.100.157:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-057,198.51.100.157,key-d0057,198.51.100.157:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-058,198.51.100.158,key-d0058,198.51.100.158:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-058,198.51.100.158,key-d0058,198.51.100.158:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-058,198.51.100.158,key-d0058,198.51.100.158:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+91000,d-059,198.51.100.159,key-d0059,198.51.100.159:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+91000,d-059,198.51.100.159,key-d0059,198.51.100.159:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+91000,d-059,198.51.100.159,key-d0059,198.51.100.159:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+100000,node,,,,,autoconnect,C10_autoconnect,batch_bootcache,20 bootcache endpoints handed out (Logic.h:588-600)
+101000,d-060,198.51.100.160,key-d0060,198.51.100.160:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-060,198.51.100.160,key-d0060,198.51.100.160:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-060,198.51.100.160,key-d0060,198.51.100.160:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-061,198.51.100.161,key-d0061,198.51.100.161:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-061,198.51.100.161,key-d0061,198.51.100.161:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-061,198.51.100.161,key-d0061,198.51.100.161:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-062,198.51.100.162,key-d0062,198.51.100.162:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-062,198.51.100.162,key-d0062,198.51.100.162:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-062,198.51.100.162,key-d0062,198.51.100.162:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-063,198.51.100.163,key-d0063,198.51.100.163:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-063,198.51.100.163,key-d0063,198.51.100.163:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-063,198.51.100.163,key-d0063,198.51.100.163:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-064,198.51.100.164,key-d0064,198.51.100.164:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-064,198.51.100.164,key-d0064,198.51.100.164:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-064,198.51.100.164,key-d0064,198.51.100.164:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-065,198.51.100.165,key-d0065,198.51.100.165:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-065,198.51.100.165,key-d0065,198.51.100.165:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-065,198.51.100.165,key-d0065,198.51.100.165:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-066,198.51.100.166,key-d0066,198.51.100.166:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-066,198.51.100.166,key-d0066,198.51.100.166:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-066,198.51.100.166,key-d0066,198.51.100.166:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-067,198.51.100.167,key-d0067,198.51.100.167:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-067,198.51.100.167,key-d0067,198.51.100.167:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-067,198.51.100.167,key-d0067,198.51.100.167:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-068,198.51.100.168,key-d0068,198.51.100.168:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-068,198.51.100.168,key-d0068,198.51.100.168:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-068,198.51.100.168,key-d0068,198.51.100.168:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-069,198.51.100.169,key-d0069,198.51.100.169:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-069,198.51.100.169,key-d0069,198.51.100.169:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-069,198.51.100.169,key-d0069,198.51.100.169:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-070,198.51.100.170,key-d0070,198.51.100.170:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-070,198.51.100.170,key-d0070,198.51.100.170:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-070,198.51.100.170,key-d0070,198.51.100.170:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-071,198.51.100.171,key-d0071,198.51.100.171:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-071,198.51.100.171,key-d0071,198.51.100.171:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-071,198.51.100.171,key-d0071,198.51.100.171:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-072,198.51.100.172,key-d0072,198.51.100.172:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-072,198.51.100.172,key-d0072,198.51.100.172:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-072,198.51.100.172,key-d0072,198.51.100.172:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-073,198.51.100.173,key-d0073,198.51.100.173:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-073,198.51.100.173,key-d0073,198.51.100.173:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-073,198.51.100.173,key-d0073,198.51.100.173:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-074,198.51.100.174,key-d0074,198.51.100.174:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-074,198.51.100.174,key-d0074,198.51.100.174:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-074,198.51.100.174,key-d0074,198.51.100.174:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-075,198.51.100.175,key-d0075,198.51.100.175:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-075,198.51.100.175,key-d0075,198.51.100.175:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-075,198.51.100.175,key-d0075,198.51.100.175:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-076,198.51.100.176,key-d0076,198.51.100.176:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-076,198.51.100.176,key-d0076,198.51.100.176:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-076,198.51.100.176,key-d0076,198.51.100.176:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-077,198.51.100.177,key-d0077,198.51.100.177:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-077,198.51.100.177,key-d0077,198.51.100.177:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-077,198.51.100.177,key-d0077,198.51.100.177:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-078,198.51.100.178,key-d0078,198.51.100.178:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-078,198.51.100.178,key-d0078,198.51.100.178:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-078,198.51.100.178,key-d0078,198.51.100.178:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+101000,d-079,198.51.100.179,key-d0079,198.51.100.179:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+101000,d-079,198.51.100.179,key-d0079,198.51.100.179:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+101000,d-079,198.51.100.179,key-d0079,198.51.100.179:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+110000,node,,,,,autoconnect,C10_autoconnect,batch_bootcache,20 bootcache endpoints handed out (Logic.h:588-600)
+111000,d-080,198.51.100.180,key-d0080,198.51.100.180:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-080,198.51.100.180,key-d0080,198.51.100.180:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-080,198.51.100.180,key-d0080,198.51.100.180:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-081,198.51.100.181,key-d0081,198.51.100.181:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-081,198.51.100.181,key-d0081,198.51.100.181:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-081,198.51.100.181,key-d0081,198.51.100.181:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-082,198.51.100.182,key-d0082,198.51.100.182:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-082,198.51.100.182,key-d0082,198.51.100.182:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-082,198.51.100.182,key-d0082,198.51.100.182:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-083,198.51.100.183,key-d0083,198.51.100.183:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-083,198.51.100.183,key-d0083,198.51.100.183:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-083,198.51.100.183,key-d0083,198.51.100.183:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-084,198.51.100.184,key-d0084,198.51.100.184:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-084,198.51.100.184,key-d0084,198.51.100.184:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-084,198.51.100.184,key-d0084,198.51.100.184:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-085,198.51.100.185,key-d0085,198.51.100.185:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-085,198.51.100.185,key-d0085,198.51.100.185:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-085,198.51.100.185,key-d0085,198.51.100.185:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-086,198.51.100.186,key-d0086,198.51.100.186:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-086,198.51.100.186,key-d0086,198.51.100.186:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-086,198.51.100.186,key-d0086,198.51.100.186:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-087,198.51.100.187,key-d0087,198.51.100.187:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-087,198.51.100.187,key-d0087,198.51.100.187:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-087,198.51.100.187,key-d0087,198.51.100.187:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-088,198.51.100.188,key-d0088,198.51.100.188:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-088,198.51.100.188,key-d0088,198.51.100.188:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-088,198.51.100.188,key-d0088,198.51.100.188:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-089,198.51.100.189,key-d0089,198.51.100.189:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-089,198.51.100.189,key-d0089,198.51.100.189:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-089,198.51.100.189,key-d0089,198.51.100.189:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-090,198.51.100.190,key-d0090,198.51.100.190:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-090,198.51.100.190,key-d0090,198.51.100.190:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-090,198.51.100.190,key-d0090,198.51.100.190:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-091,198.51.100.191,key-d0091,198.51.100.191:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-091,198.51.100.191,key-d0091,198.51.100.191:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-091,198.51.100.191,key-d0091,198.51.100.191:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-092,198.51.100.192,key-d0092,198.51.100.192:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-092,198.51.100.192,key-d0092,198.51.100.192:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-092,198.51.100.192,key-d0092,198.51.100.192:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-093,198.51.100.193,key-d0093,198.51.100.193:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-093,198.51.100.193,key-d0093,198.51.100.193:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-093,198.51.100.193,key-d0093,198.51.100.193:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-094,198.51.100.194,key-d0094,198.51.100.194:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-094,198.51.100.194,key-d0094,198.51.100.194:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-094,198.51.100.194,key-d0094,198.51.100.194:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-095,198.51.100.195,key-d0095,198.51.100.195:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-095,198.51.100.195,key-d0095,198.51.100.195:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-095,198.51.100.195,key-d0095,198.51.100.195:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-096,198.51.100.196,key-d0096,198.51.100.196:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-096,198.51.100.196,key-d0096,198.51.100.196:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-096,198.51.100.196,key-d0096,198.51.100.196:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-097,198.51.100.197,key-d0097,198.51.100.197:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-097,198.51.100.197,key-d0097,198.51.100.197:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-097,198.51.100.197,key-d0097,198.51.100.197:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-098,198.51.100.198,key-d0098,198.51.100.198:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-098,198.51.100.198,key-d0098,198.51.100.198:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-098,198.51.100.198,key-d0098,198.51.100.198:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)
+111000,d-099,198.51.100.199,key-d0099,198.51.100.199:51235,out,disconnect,peer_lifecycle,disconnected,"removed out slot (was connect): connect failed: endpoint dead (backoff 2 s, squelch 60 s)"
+111000,d-099,198.51.100.199,key-d0099,198.51.100.199:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+111000,d-099,198.51.100.199,key-d0099,198.51.100.199:51235,out,new_outbound_slot,C03_outbound_slots,slot_created,outbound slot created; attempts in flight 1 (max 20)

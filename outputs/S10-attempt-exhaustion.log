@@ -1,0 +1,20 @@
+scenario: S10-attempt-exhaustion
+title: Attempt exhaustion: 300 dead endpoints in the bootcache burn autoconnect batches
+pinned_commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+scenario_file: scenarios/S10-attempt-exhaustion.json
+scenario_sha256: 97c38800d25893deceaed25c2a137bb45544a4f380d5a216cac2bd5de5757391
+simulator_file: scripts/simulator.py
+simulator_sha256: 205ea7cb595be8a7afcd079de9ed959b5c81963265952c0e43186660bf8427f2
+harness_file: scripts/load_harness.py
+harness_sha256: b68ccc11cfdf32d841ef04174dfe89a5892806997204755a037882d3b4247ab2
+duration_ms: 120000
+total_events: 732
+activated: 0
+outcomes: {"batch_bootcache": 12, "disconnected": 240, "slot_created": 240, "verified": 240}
+controls: {"C03_outbound_slots": 240, "C10_autoconnect": 12, "handshake": 240, "peer_lifecycle": 240}
+metrics: {"attempts_total": 240, "attempts_wasted_dead": 240, "attempts_wasted_pct": 100.0, "autoconnect_batches": 12, "dead_endpoints": 300, "honest_endpoints": 20, "honest_outbound_slots": 0, "time_to_first_honest_peer_ms": null}
+final_state: {"attempts_in_flight": 0, "bootcache_entries": 320, "fixed_active": 0, "in_active": 0, "in_max": 11, "ip_limit": 2, "keys_active": 0, "livecache_entries": 0, "out_active": 0, "out_max": 10, "reserved_active": 0, "slots": 0, "total_active": 0}
+csv_file: outputs/S10-attempt-exhaustion.csv
+csv_sha256: b510eb134ec04e001583952c4bc01bc46a7fdc38a799962c2556dd969aa30ef0
+json_file: outputs/S10-attempt-exhaustion.json
+json_sha256: 858f210304313e2534eefbb5ae76608afa99a8c84ebe4dd60044e8a17820ae24

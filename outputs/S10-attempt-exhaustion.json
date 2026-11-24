@@ -1,0 +1,757 @@
+{
+  "activated": 0,
+  "controls": {
+    "C03_outbound_slots": 240,
+    "C10_autoconnect": 12,
+    "handshake": 240,
+    "peer_lifecycle": 240
+  },
+  "duration_ms": 120000,
+  "endpoint_stats": {},
+  "final_state": {
+    "attempts_in_flight": 0,
+    "bootcache_entries": 320,
+    "fixed_active": 0,
+    "in_active": 0,
+    "in_max": 11,
+    "ip_limit": 2,
+    "keys_active": 0,
+    "livecache_entries": 0,
+    "out_active": 0,
+    "out_max": 10,
+    "reserved_active": 0,
+    "slots": 0,
+    "total_active": 0
+  },
+  "gossip_events": [],
+  "handshake_rejects": {},
+  "metrics": {
+    "attempts_total": 240,
+    "attempts_wasted_dead": 240,
+    "attempts_wasted_pct": 100.0,
+    "autoconnect_batches": 12,
+    "dead_endpoints": 300,
+    "honest_endpoints": 20,
+    "honest_outbound_slots": 0,
+    "time_to_first_honest_peer_ms": null
+  },
+  "outcomes": {
+    "batch_bootcache": 12,
+    "disconnected": 240,
+    "slot_created": 240,
+    "verified": 240
+  },
+  "per_actor": {
+    "d-000": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-001": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-002": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-003": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-004": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-005": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-006": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-007": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-008": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-009": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-010": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-011": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-012": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-013": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-014": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-015": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-016": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-017": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-018": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-019": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-020": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-021": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-022": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-023": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-024": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-025": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-026": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-027": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-028": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-029": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-030": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-031": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-032": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-033": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-034": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-035": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-036": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-037": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-038": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-039": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-040": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-041": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-042": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-043": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-044": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-045": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-046": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-047": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-048": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-049": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-050": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-051": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-052": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-053": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-054": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-055": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-056": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-057": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-058": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-059": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-060": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-061": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-062": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-063": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-064": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-065": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-066": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-067": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-068": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-069": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-070": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-071": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-072": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-073": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-074": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-075": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-076": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-077": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-078": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-079": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-080": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-081": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-082": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-083": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-084": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-085": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-086": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-087": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-088": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-089": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-090": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-091": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-092": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-093": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-094": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-095": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-096": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-097": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-098": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-099": {
+      "activated": 0,
+      "events": 6,
+      "rejected": 0
+    },
+    "d-100": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-101": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-102": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-103": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-104": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-105": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-106": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-107": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-108": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-109": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-110": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-111": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-112": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-113": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-114": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-115": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-116": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-117": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-118": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-119": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-120": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-121": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-122": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-123": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-124": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-125": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-126": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-127": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-128": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-129": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-130": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-131": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-132": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-133": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-134": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-135": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-136": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-137": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-138": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "d-139": {
+      "activated": 0,
+      "events": 3,
+      "rejected": 0
+    },
+    "node": {
+      "activated": 0,
+      "events": 12,
+      "rejected": 0
+    }
+  },
+  "pinned_commit": "0085a1ff885d6a446369cf73a4430f75af22be55",
+  "rejected": 0,
+  "scenario": "S10-attempt-exhaustion",
+  "simulated": true,
+  "title": "Attempt exhaustion: 300 dead endpoints in the bootcache burn autoconnect batches",
+  "total_events": 732
+}
