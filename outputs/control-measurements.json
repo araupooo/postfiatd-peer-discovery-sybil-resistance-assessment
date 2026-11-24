@@ -1,0 +1,134 @@
+{
+  "controls": [
+    {
+      "attempts": 50,
+      "blocked": 48,
+      "control": "ipLimit (public)",
+      "effectiveness_pct": 96.0,
+      "id": "C00",
+      "note": "48 of 50 single-IP attempts rejected; 2 slots remain usable by that IP (by design).",
+      "scenario": "S4-single-ip-flood",
+      "status": "MEASURED"
+    },
+    {
+      "attempts": 200,
+      "blocked": 66,
+      "control": "duplicate-key rejection",
+      "effectiveness_pct": 33.0,
+      "id": "C01",
+      "note": "66 repeat attempts rejected as duplicate keys and 63 more as slots full; 11 slots still fill (one per distinct key). The duplicate-key control stops repeats; it cannot stop distinct keys filling the slots (see S5).",
+      "scenario": "S3-duplicate-identity",
+      "status": "MEASURED"
+    },
+    {
+      "attempts": 11,
+      "blocked": 11,
+      "control": "inbound slot limit (inPeers 11)",
+      "effectiveness_pct": 0.0,
+      "id": "C02",
+      "note": "The 11-slot inbound limit bounds total inbound peers but does not discriminate: the attacker takes all 11 slots and 11 of 11 honest peers are rejected.",
+      "scenario": "S5-multi-ip-sybil",
+      "status": "MEASURED"
+    },
+    {
+      "attempts": 9,
+      "blocked": 9,
+      "control": "outbound slot limit (outPeers 10)",
+      "effectiveness_pct": 100.0,
+      "id": "C03",
+      "note": "10 overshoot attempts rejected; outbound slots stay at 10. The limit bounds count, not composition (see S7).",
+      "scenario": "S0-baseline",
+      "status": "MEASURED"
+    },
+    {
+      "attempts": 30,
+      "blocked": 30,
+      "control": "handshake cookie",
+      "effectiveness_pct": 100.0,
+      "id": "C04",
+      "note": "All 30 bad-cookie handshakes rejected before any slot is created.",
+      "scenario": "S3-duplicate-identity",
+      "status": "MEASURED"
+    },
+    {
+      "attempts": 20,
+      "blocked": 20,
+      "control": "Network-ID handshake check",
+      "effectiveness_pct": 100.0,
+      "id": "C05",
+      "note": "All 20 wrong-Network-ID handshakes rejected.",
+      "scenario": "S3-duplicate-identity",
+      "status": "MEASURED"
+    },
+    {
+      "attempts": 10,
+      "blocked": 10,
+      "control": "proxy / direct-connect rejection",
+      "effectiveness_pct": 100.0,
+      "id": "C06",
+      "note": "All 10 proxied handshakes rejected.",
+      "scenario": "S3-duplicate-identity",
+      "status": "MEASURED"
+    },
+    {
+      "attempts": 200,
+      "blocked": 42,
+      "control": "endpoint gossip filters (hops/invalid/duplicate)",
+      "effectiveness_pct": 21.0,
+      "id": "C07",
+      "note": "Filters drop 42 of the 64 sampled endpoints (27 hops, 11 invalid, 4 duplicate); 136 were truncated before filtering; 22 of 200 still enter the caches.",
+      "scenario": "S6-endpoint-gossip",
+      "status": "MEASURED"
+    },
+    {
+      "attempts": 200,
+      "blocked": 136,
+      "control": "gossip truncation (numberOfEndpointsMax 64)",
+      "effectiveness_pct": 68.0,
+      "id": "C08",
+      "note": "200 endpoints truncated to 64 before filtering; the truncation is a random shuffle, so which 64 survive is luck, not trust.",
+      "scenario": "S6-endpoint-gossip",
+      "status": "MEASURED"
+    },
+    {
+      "attempts": 50,
+      "blocked": 20,
+      "control": "maxRedirects cap (30)",
+      "effectiveness_pct": 40.0,
+      "id": "C09",
+      "note": "20 of 50 redirect requests rejected at the cap; the first 30 are free.",
+      "scenario": "S9-redirect-abuse",
+      "status": "MEASURED"
+    },
+    {
+      "attempts": 36,
+      "blocked": 0,
+      "control": "autoconnect refill (churn)",
+      "effectiveness_pct": 100.0,
+      "id": "C10",
+      "note": "36 churn events; all 25 dropped OUTBOUND peers were refilled within one autoconnect batch; 0 time below full outbound after refill. The 11 dropped INBOUND peers were NOT refilled (autoconnect only dials out) \u2014 inbound active fell 11 to 0 over the run.",
+      "scenario": "S2-peer-churn",
+      "status": "MEASURED"
+    },
+    {
+      "attempts": 40,
+      "blocked": 0,
+      "control": "bootstrap discovery (4 hosts)",
+      "effectiveness_pct": 100.0,
+      "id": "C11",
+      "note": "4 bootstrap hosts yielded 40 endpoints; first peer at 100 ms, full outbound at 10,100 ms.",
+      "scenario": "S1-bootstrap",
+      "status": "MEASURED"
+    },
+    {
+      "attempts": null,
+      "blocked": null,
+      "control": "max_untrusted_count (1000)",
+      "effectiveness_pct": null,
+      "id": "C12",
+      "note": "UNMEASURED \u2014 code-verified only: max_untrusted_count 1000 (Logic.h:1071-1072) was not exercised by any scenario; no effectiveness number is claimed.",
+      "scenario": "\u2014",
+      "status": "UNMEASURED"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+run started at 2026-11-24T21:04:40Z
+pinned commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+scenario S0-baseline: events=100 activated=21 metrics={"autoconnect_batches": 1, "honest_peers_available": 30, "overshoot_rejected_full": 9, "time_to_full_ms": 155}
+scenario S1-bootstrap: events=87 activated=14 metrics={"attempts_used": 24, "autoconnect_batches": 1, "bootstrap_hosts": 4, "endpoints_learned": 40, "time_to_first_peer_ms": 100, "time_to_full_outbound_ms": 10100}
+scenario S10-attempt-exhaustion: events=732 activated=0 metrics={"attempts_total": 240, "attempts_wasted_dead": 240, "attempts_wasted_pct": 100.0, "autoconnect_batches": 12, "dead_endpoints": 300, "honest_endpoints": 20, "honest_outbound_slots": 0, "time_to_first_honest_peer_ms": null}
+scenario S2-peer-churn: events=926 activated=46 metrics={"churn_per_epoch": 3, "epochs": 12, "inbound_active_end": 0, "inbound_active_start": 11, "inbound_lost": 11, "max_outbound_deficit": 0, "time_below_full_outbound_ms": 0, "total_churned": 36, "total_refilled": 25}
+scenario S3-duplicate-identity: events=609 activated=11 metrics={"activated": 11, "attacker_success_pct": 5.5, "attempts_total": 200, "distinct_keys": 20, "duplicate_key_rejections": 66, "handshake_rejected_cookie": 30, "handshake_rejected_network_id": 20, "handshake_rejected_proxy": 10, "slots_full_rejections": 63}
+scenario S4-single-ip-flood: events=102 activated=2 metrics={"accepted": 2, "attacker_ip": "198.51.100.77", "attacker_success_pct": 4.0, "attempts_total": 50, "rejected_ip_limit": 48}
+scenario S5-multi-ip-sybil: events=193 activated=11 metrics={"attacker_activated": 11, "attacker_peers": 40, "attacker_rejected_full": 29, "honest_activated": 0, "honest_peers": 11, "honest_rejected_full": 11, "inbound_saturation_pct": 100.0}
+scenario S6-endpoint-gossip: events=5 activated=1 metrics={"accepted_bootcache": 22, "accepted_livecache": 22, "bootcache_entries": 22, "dropped_duplicate": 4, "dropped_hops": 27, "dropped_invalid": 11, "endpoints_received": 200, "endpoints_truncated": 136, "livecache_entries": 22}
+scenario S7-eclipse-isolation: events=96 activated=15 metrics={"attacker_outbound_share_pct": 100.0, "attacker_outbound_slots": 10, "autoconnect_batches": 1, "bootcache_attacker_endpoints": 60, "bootcache_honest_endpoints": 10, "honest_outbound_slots": 0, "livecache_attacker_endpoints": 60, "livecache_honest_endpoints": 10}
+scenario S8-fixed-cluster-bypass: events=118 activated=27 metrics={"bypass_activated": 6, "cluster_peers": 3, "fixed_peers": 2, "public_in_active": 11, "public_out_active": 10, "public_slots_before": 21, "reserved_peers": 1, "total_active_after": 27}
+scenario S9-redirect-abuse: events=53 activated=1 metrics={"max_redirects": 30, "redirect_requests": 50, "redirects_accepted": 30, "redirects_rejected_cap": 20}
+matrix: {"CRITICAL": 2, "HIGH": 1, "INFO": 2, "LOW": 3, "MEDIUM": 3}
+  S5-multi-ip-sybil CRITICAL 100.0%
+  S7-eclipse-isolation CRITICAL 100.0%
+  S10-attempt-exhaustion HIGH 100.0%
+  S8-fixed-cluster-bypass MEDIUM 100.0%
+  S6-endpoint-gossip MEDIUM 11.0%
+  S2-peer-churn MEDIUM 0.0%
+  S9-redirect-abuse LOW 60.0%
+  S3-duplicate-identity LOW 5.5%
+  S4-single-ip-flood LOW 4.0%
+  S0-baseline INFO 0.0%
+  S1-bootstrap INFO 0.0%
+  C00 MEASURED: 96.0%
+  C01 MEASURED: 33.0%
+  C02 MEASURED: 0.0%
+  C03 MEASURED: 100.0%
+  C04 MEASURED: 100.0%
+  C05 MEASURED: 100.0%
+  C06 MEASURED: 100.0%
+  C07 MEASURED: 21.0%
+  C08 MEASURED: 68.0%
+  C09 MEASURED: 40.0%
+  C10 MEASURED: 100.0%
+  C11 MEASURED: 100.0%
+  C12 UNMEASURED: UNMEASURED
+manifest: 65 files
+DETERMINISM OK: all scenario outputs byte-identical across runs
+SHA256SUMS: 66 entries
+./.gitignore: OK
+./README.md: OK
+./docs/control-inventory.md: OK
+./docs/decision-memo.md: OK
+./docs/environment.md: OK
+./docs/findings-report.md: OK
+./docs/methodology.md: OK
+./docs/remediation-report.md: OK
+./docs/source-inventory.md: OK
+./manifest.json: OK
+./outputs/S0-baseline.csv: OK
+./outputs/S0-baseline.json: OK
+./outputs/S0-baseline.log: OK
+./outputs/S1-bootstrap.csv: OK
+./outputs/S1-bootstrap.json: OK
+./outputs/S1-bootstrap.log: OK
+./outputs/S10-attempt-exhaustion.csv: OK
+./outputs/S10-attempt-exhaustion.json: OK
+./outputs/S10-attempt-exhaustion.log: OK
+./outputs/S2-peer-churn.csv: OK
+./outputs/S2-peer-churn.json: OK
+./outputs/S2-peer-churn.log: OK
+./outputs/S3-duplicate-identity.csv: OK
+./outputs/S3-duplicate-identity.json: OK
+./outputs/S3-duplicate-identity.log: OK
+./outputs/S4-single-ip-flood.csv: OK
+./outputs/S4-single-ip-flood.json: OK
+./outputs/S4-single-ip-flood.log: OK
+./outputs/S5-multi-ip-sybil.csv: OK
+./outputs/S5-multi-ip-sybil.json: OK
+./outputs/S5-multi-ip-sybil.log: OK
+./outputs/S6-endpoint-gossip.csv: OK
+./outputs/S6-endpoint-gossip.json: OK
+./outputs/S6-endpoint-gossip.log: OK
+./outputs/S7-eclipse-isolation.csv: OK
+./outputs/S7-eclipse-isolation.json: OK
+./outputs/S7-eclipse-isolation.log: OK
+./outputs/S8-fixed-cluster-bypass.csv: OK
+./outputs/S8-fixed-cluster-bypass.json: OK
+./outputs/S8-fixed-cluster-bypass.log: OK
+./outputs/S9-redirect-abuse.csv: OK
+./outputs/S9-redirect-abuse.json: OK
+./outputs/S9-redirect-abuse.log: OK
+./outputs/control-measurements.json: OK
+./outputs/control-measurements.md: OK
+./outputs/matrix.json: OK
+./outputs/matrix.md: OK
+./scenarios/S0-baseline.json: OK
+./scenarios/S1-bootstrap.json: OK
+./scenarios/S10-attempt-exhaustion.json: OK
+./scenarios/S2-peer-churn.json: OK
+./scenarios/S3-duplicate-identity.json: OK
+./scenarios/S4-single-ip-flood.json: OK
+./scenarios/S5-multi-ip-sybil.json: OK
+./scenarios/S6-endpoint-gossip.json: OK
+./scenarios/S7-eclipse-isolation.json: OK
+./scenarios/S8-fixed-cluster-bypass.json: OK
+./scenarios/S9-redirect-abuse.json: OK
+./scripts/build_matrix.py: OK
+./scripts/load_harness.py: OK
+./scripts/make_manifest.py: OK
+./scripts/make_sha256sums.sh: OK
+./scripts/measure_controls.py: OK
+./scripts/run_all.sh: OK
+./scripts/simulator.py: OK
+./scripts/verify_digests.sh: OK
+run_all.sh: OK
