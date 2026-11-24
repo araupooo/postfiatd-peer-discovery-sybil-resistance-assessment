@@ -1,0 +1,9 @@
+{
+  "cluster_peers": 3,
+  "duration_ms": 10000,
+  "fixed_peers": 2,
+  "honest_peers": 30,
+  "id": "S8-fixed-cluster-bypass",
+  "seed": 20261125,
+  "title": "Fixed/cluster bypass: 6 reserved peers activate while all 21 public slots are full"
+}

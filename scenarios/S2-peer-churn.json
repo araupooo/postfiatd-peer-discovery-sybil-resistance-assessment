@@ -1,0 +1,9 @@
+{
+  "churn_per_epoch": 3,
+  "duration_ms": 120000,
+  "epochs": 12,
+  "honest_peers": 30,
+  "id": "S2-peer-churn",
+  "seed": 20261125,
+  "title": "Peer churn: 3 of 21 peers drop every 10 s for 12 epochs; autoconnect refills"
+}

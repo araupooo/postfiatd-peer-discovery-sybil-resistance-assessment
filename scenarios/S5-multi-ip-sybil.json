@@ -1,0 +1,8 @@
+{
+  "attacker_peers": 40,
+  "duration_ms": 10000,
+  "honest_peers": 11,
+  "id": "S5-multi-ip-sybil",
+  "seed": 20261125,
+  "title": "Multi-IP Sybil flood: 40 distinct-IP attackers fill inbound slots before honest peers arrive"
+}

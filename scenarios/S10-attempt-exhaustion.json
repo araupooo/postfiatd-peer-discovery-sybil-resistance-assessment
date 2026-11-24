@@ -1,0 +1,8 @@
+{
+  "dead_endpoints": 300,
+  "duration_ms": 120000,
+  "honest_endpoints": 20,
+  "id": "S10-attempt-exhaustion",
+  "seed": 20261125,
+  "title": "Attempt exhaustion: 300 dead endpoints in the bootcache burn autoconnect batches"
+}

@@ -1,0 +1,7 @@
+{
+  "duration_ms": 10000,
+  "id": "S9-redirect-abuse",
+  "redirect_requests": 50,
+  "seed": 20261125,
+  "title": "Redirect abuse: one peer requests 50 redirects (maxRedirects 30)"
+}

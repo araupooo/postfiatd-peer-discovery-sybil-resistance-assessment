@@ -1,0 +1,6 @@
+{
+  "duration_ms": 30000,
+  "id": "S3-duplicate-identity",
+  "seed": 20261125,
+  "title": "Duplicate-identity flood: 200 inbound attempts reusing 20 keys, plus 60 bad handshakes"
+}

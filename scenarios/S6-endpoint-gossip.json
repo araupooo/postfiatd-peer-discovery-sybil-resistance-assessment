@@ -1,0 +1,6 @@
+{
+  "duration_ms": 10000,
+  "id": "S6-endpoint-gossip",
+  "seed": 20261125,
+  "title": "Endpoint-gossip poisoning: one peer sends 200 endpoints (hops, invalid, duplicate, valid mix)"
+}
