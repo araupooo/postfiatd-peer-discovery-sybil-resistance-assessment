@@ -1,0 +1,20 @@
+scenario: S1-bootstrap
+title: Bootstrap discovery: cold start from the 4 default bootstrap hosts
+pinned_commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+scenario_file: scenarios/S1-bootstrap.json
+scenario_sha256: 3bea34e1839e21e7369f9745d300c731bdc453a6331f32596b801d96ed13f641
+simulator_file: scripts/simulator.py
+simulator_sha256: 205ea7cb595be8a7afcd079de9ed959b5c81963265952c0e43186660bf8427f2
+harness_file: scripts/load_harness.py
+harness_sha256: b68ccc11cfdf32d841ef04174dfe89a5892806997204755a037882d3b4247ab2
+duration_ms: 60000
+total_events: 87
+activated: 14
+outcomes: {"activated": 14, "batch_livecache": 1, "disconnected": 14, "rejected_slots_full": 10, "slot_created": 24, "verified": 24}
+controls: {"C03_outbound_slots": 48, "C10_autoconnect": 1, "handshake": 24, "peer_lifecycle": 14}
+metrics: {"attempts_used": 24, "autoconnect_batches": 1, "bootstrap_hosts": 4, "endpoints_learned": 40, "time_to_first_peer_ms": 100, "time_to_full_outbound_ms": 10100}
+final_state: {"attempts_in_flight": 0, "bootcache_entries": 41, "fixed_active": 0, "in_active": 0, "in_max": 11, "ip_limit": 2, "keys_active": 10, "livecache_entries": 37, "out_active": 10, "out_max": 10, "reserved_active": 0, "slots": 10, "total_active": 10}
+csv_file: outputs/S1-bootstrap.csv
+csv_sha256: a69c9b1afb02858568bb0524409c222e46b6bfec267c3b1d7546919374011c00
+json_file: outputs/S1-bootstrap.json
+json_sha256: 4121b62f892032f7d53e516ebec2f53148e70e56db0dd3d7b0ebf5f5e44b43f1

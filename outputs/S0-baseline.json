@@ -1,0 +1,206 @@
+{
+  "activated": 21,
+  "controls": {
+    "C02_inbound_slots": 22,
+    "C03_outbound_slots": 38,
+    "C10_autoconnect": 1,
+    "handshake": 30,
+    "peer_lifecycle": 9
+  },
+  "duration_ms": 60000,
+  "endpoint_stats": {},
+  "final_state": {
+    "attempts_in_flight": 0,
+    "bootcache_entries": 30,
+    "fixed_active": 0,
+    "in_active": 11,
+    "in_max": 11,
+    "ip_limit": 2,
+    "keys_active": 21,
+    "livecache_entries": 0,
+    "out_active": 10,
+    "out_max": 10,
+    "reserved_active": 0,
+    "slots": 21,
+    "total_active": 21
+  },
+  "gossip_events": [],
+  "handshake_rejects": {},
+  "metrics": {
+    "autoconnect_batches": 1,
+    "honest_peers_available": 30,
+    "overshoot_rejected_full": 9,
+    "time_to_full_ms": 155
+  },
+  "outcomes": {
+    "activated": 21,
+    "batch_bootcache": 1,
+    "disconnected": 9,
+    "rejected_slots_full": 9,
+    "slot_created": 30,
+    "verified": 30
+  },
+  "per_actor": {
+    "h-000": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-001": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-002": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-003": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-004": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-005": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-006": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-007": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-008": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-009": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-010": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-011": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-012": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-013": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-014": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-015": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-016": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-017": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-018": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-019": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-020": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-021": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "h-022": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "h-023": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "h-024": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "h-025": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "h-026": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "h-027": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "h-028": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "h-029": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "node": {
+      "activated": 0,
+      "events": 1,
+      "rejected": 0
+    }
+  },
+  "pinned_commit": "0085a1ff885d6a446369cf73a4430f75af22be55",
+  "rejected": 9,
+  "scenario": "S0-baseline",
+  "simulated": true,
+  "title": "Baseline: healthy mesh, 30 honest peers, full 21-peer slot table",
+  "total_events": 100
+}

@@ -1,0 +1,177 @@
+{
+  "activated": 14,
+  "controls": {
+    "C03_outbound_slots": 48,
+    "C10_autoconnect": 1,
+    "handshake": 24,
+    "peer_lifecycle": 14
+  },
+  "duration_ms": 60000,
+  "endpoint_stats": {},
+  "final_state": {
+    "attempts_in_flight": 0,
+    "bootcache_entries": 41,
+    "fixed_active": 0,
+    "in_active": 0,
+    "in_max": 11,
+    "ip_limit": 2,
+    "keys_active": 10,
+    "livecache_entries": 37,
+    "out_active": 10,
+    "out_max": 10,
+    "reserved_active": 0,
+    "slots": 10,
+    "total_active": 10
+  },
+  "gossip_events": [],
+  "handshake_rejects": {},
+  "metrics": {
+    "attempts_used": 24,
+    "autoconnect_batches": 1,
+    "bootstrap_hosts": 4,
+    "endpoints_learned": 40,
+    "time_to_first_peer_ms": 100,
+    "time_to_full_outbound_ms": 10100
+  },
+  "outcomes": {
+    "activated": 14,
+    "batch_livecache": 1,
+    "disconnected": 14,
+    "rejected_slots_full": 10,
+    "slot_created": 24,
+    "verified": 24
+  },
+  "per_actor": {
+    "boot-0": {
+      "activated": 1,
+      "events": 4,
+      "rejected": 0
+    },
+    "boot-1": {
+      "activated": 1,
+      "events": 4,
+      "rejected": 0
+    },
+    "boot-2": {
+      "activated": 1,
+      "events": 4,
+      "rejected": 0
+    },
+    "boot-3": {
+      "activated": 1,
+      "events": 4,
+      "rejected": 0
+    },
+    "h-108": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "h-111": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-112": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "h-113": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-114": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-115": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-116": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-117": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-123": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "h-125": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-126": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "h-127": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "h-128": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-131": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "h-133": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "h-134": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "h-135": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "h-137": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-141": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "h-145": {
+      "activated": 0,
+      "events": 4,
+      "rejected": 1
+    },
+    "node": {
+      "activated": 0,
+      "events": 1,
+      "rejected": 0
+    }
+  },
+  "pinned_commit": "0085a1ff885d6a446369cf73a4430f75af22be55",
+  "rejected": 10,
+  "scenario": "S1-bootstrap",
+  "simulated": true,
+  "title": "Bootstrap discovery: cold start from the 4 default bootstrap hosts",
+  "total_events": 87
+}

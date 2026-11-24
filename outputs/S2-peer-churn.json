@@ -1,0 +1,211 @@
+{
+  "activated": 46,
+  "controls": {
+    "C02_inbound_slots": 22,
+    "C03_outbound_slots": 440,
+    "C10_autoconnect": 12,
+    "handshake": 231,
+    "peer_lifecycle": 221
+  },
+  "duration_ms": 120000,
+  "endpoint_stats": {},
+  "final_state": {
+    "attempts_in_flight": 0,
+    "bootcache_entries": 30,
+    "fixed_active": 0,
+    "in_active": 0,
+    "in_max": 11,
+    "ip_limit": 2,
+    "keys_active": 10,
+    "livecache_entries": 0,
+    "out_active": 10,
+    "out_max": 10,
+    "reserved_active": 0,
+    "slots": 10,
+    "total_active": 10
+  },
+  "gossip_events": [],
+  "handshake_rejects": {},
+  "metrics": {
+    "churn_per_epoch": 3,
+    "epochs": 12,
+    "inbound_active_end": 0,
+    "inbound_active_start": 11,
+    "inbound_lost": 11,
+    "max_outbound_deficit": 0,
+    "time_below_full_outbound_ms": 0,
+    "total_churned": 36,
+    "total_refilled": 25
+  },
+  "outcomes": {
+    "activated": 46,
+    "batch_bootcache": 12,
+    "disconnected": 221,
+    "rejected_slots_full": 185,
+    "slot_created": 231,
+    "verified": 231
+  },
+  "per_actor": {
+    "h-000": {
+      "activated": 3,
+      "events": 11,
+      "rejected": 0
+    },
+    "h-001": {
+      "activated": 4,
+      "events": 15,
+      "rejected": 0
+    },
+    "h-002": {
+      "activated": 3,
+      "events": 11,
+      "rejected": 0
+    },
+    "h-003": {
+      "activated": 3,
+      "events": 11,
+      "rejected": 0
+    },
+    "h-004": {
+      "activated": 2,
+      "events": 7,
+      "rejected": 0
+    },
+    "h-005": {
+      "activated": 4,
+      "events": 15,
+      "rejected": 0
+    },
+    "h-006": {
+      "activated": 4,
+      "events": 19,
+      "rejected": 1
+    },
+    "h-007": {
+      "activated": 2,
+      "events": 7,
+      "rejected": 0
+    },
+    "h-008": {
+      "activated": 3,
+      "events": 19,
+      "rejected": 2
+    },
+    "h-009": {
+      "activated": 3,
+      "events": 20,
+      "rejected": 2
+    },
+    "h-010": {
+      "activated": 2,
+      "events": 11,
+      "rejected": 1
+    },
+    "h-011": {
+      "activated": 3,
+      "events": 32,
+      "rejected": 5
+    },
+    "h-012": {
+      "activated": 1,
+      "events": 24,
+      "rejected": 5
+    },
+    "h-013": {
+      "activated": 2,
+      "events": 40,
+      "rejected": 8
+    },
+    "h-014": {
+      "activated": 1,
+      "events": 36,
+      "rejected": 8
+    },
+    "h-015": {
+      "activated": 1,
+      "events": 28,
+      "rejected": 6
+    },
+    "h-016": {
+      "activated": 1,
+      "events": 48,
+      "rejected": 11
+    },
+    "h-017": {
+      "activated": 1,
+      "events": 36,
+      "rejected": 8
+    },
+    "h-018": {
+      "activated": 1,
+      "events": 44,
+      "rejected": 10
+    },
+    "h-019": {
+      "activated": 1,
+      "events": 40,
+      "rejected": 9
+    },
+    "h-020": {
+      "activated": 1,
+      "events": 48,
+      "rejected": 11
+    },
+    "h-021": {
+      "activated": 0,
+      "events": 48,
+      "rejected": 12
+    },
+    "h-022": {
+      "activated": 0,
+      "events": 48,
+      "rejected": 12
+    },
+    "h-023": {
+      "activated": 0,
+      "events": 48,
+      "rejected": 12
+    },
+    "h-024": {
+      "activated": 0,
+      "events": 48,
+      "rejected": 12
+    },
+    "h-025": {
+      "activated": 0,
+      "events": 48,
+      "rejected": 12
+    },
+    "h-026": {
+      "activated": 0,
+      "events": 48,
+      "rejected": 12
+    },
+    "h-027": {
+      "activated": 0,
+      "events": 40,
+      "rejected": 10
+    },
+    "h-028": {
+      "activated": 0,
+      "events": 32,
+      "rejected": 8
+    },
+    "h-029": {
+      "activated": 0,
+      "events": 32,
+      "rejected": 8
+    },
+    "node": {
+      "activated": 0,
+      "events": 12,
+      "rejected": 0
+    }
+  },
+  "pinned_commit": "0085a1ff885d6a446369cf73a4430f75af22be55",
+  "rejected": 185,
+  "scenario": "S2-peer-churn",
+  "simulated": true,
+  "title": "Peer churn: 3 of 21 peers drop every 10 s for 12 epochs; autoconnect refills",
+  "total_events": 926
+}
