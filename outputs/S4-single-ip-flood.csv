@@ -1,0 +1,103 @@
+t_ms,actor,ip,key,endpoint,direction,event,control,outcome,detail
+0,a-ip-00,198.51.100.77,key-ip0000,198.51.100.77:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=1/11 out=0/10 fixed=0 reserved=0
+0,a-ip-00,198.51.100.77,key-ip0000,198.51.100.77:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+0,a-ip-00,198.51.100.77,key-ip0000,198.51.100.77:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.77: 1
+5,a-ip-01,198.51.100.77,key-ip0001,198.51.100.77:51236,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=2/11 out=0/10 fixed=0 reserved=0
+5,a-ip-01,198.51.100.77,key-ip0001,198.51.100.77:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+5,a-ip-01,198.51.100.77,key-ip0001,198.51.100.77:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.77: 2
+10,a-ip-02,198.51.100.77,key-ip0002,198.51.100.77:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+10,a-ip-02,198.51.100.77,key-ip0002,198.51.100.77:51237,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+15,a-ip-03,198.51.100.77,key-ip0003,198.51.100.77:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+15,a-ip-03,198.51.100.77,key-ip0003,198.51.100.77:51238,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+20,a-ip-04,198.51.100.77,key-ip0004,198.51.100.77:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+20,a-ip-04,198.51.100.77,key-ip0004,198.51.100.77:51239,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+25,a-ip-05,198.51.100.77,key-ip0005,198.51.100.77:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+25,a-ip-05,198.51.100.77,key-ip0005,198.51.100.77:51240,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+30,a-ip-06,198.51.100.77,key-ip0006,198.51.100.77:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+30,a-ip-06,198.51.100.77,key-ip0006,198.51.100.77:51241,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+35,a-ip-07,198.51.100.77,key-ip0007,198.51.100.77:51242,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+35,a-ip-07,198.51.100.77,key-ip0007,198.51.100.77:51242,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+40,a-ip-08,198.51.100.77,key-ip0008,198.51.100.77:51243,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+40,a-ip-08,198.51.100.77,key-ip0008,198.51.100.77:51243,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+45,a-ip-09,198.51.100.77,key-ip0009,198.51.100.77:51244,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+45,a-ip-09,198.51.100.77,key-ip0009,198.51.100.77:51244,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+50,a-ip-10,198.51.100.77,key-ip0010,198.51.100.77:51245,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+50,a-ip-10,198.51.100.77,key-ip0010,198.51.100.77:51245,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+55,a-ip-11,198.51.100.77,key-ip0011,198.51.100.77:51246,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+55,a-ip-11,198.51.100.77,key-ip0011,198.51.100.77:51246,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+60,a-ip-12,198.51.100.77,key-ip0012,198.51.100.77:51247,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+60,a-ip-12,198.51.100.77,key-ip0012,198.51.100.77:51247,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+65,a-ip-13,198.51.100.77,key-ip0013,198.51.100.77:51248,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+65,a-ip-13,198.51.100.77,key-ip0013,198.51.100.77:51248,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+70,a-ip-14,198.51.100.77,key-ip0014,198.51.100.77:51249,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+70,a-ip-14,198.51.100.77,key-ip0014,198.51.100.77:51249,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+75,a-ip-15,198.51.100.77,key-ip0015,198.51.100.77:51250,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+75,a-ip-15,198.51.100.77,key-ip0015,198.51.100.77:51250,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+80,a-ip-16,198.51.100.77,key-ip0016,198.51.100.77:51251,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+80,a-ip-16,198.51.100.77,key-ip0016,198.51.100.77:51251,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+85,a-ip-17,198.51.100.77,key-ip0017,198.51.100.77:51252,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+85,a-ip-17,198.51.100.77,key-ip0017,198.51.100.77:51252,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+90,a-ip-18,198.51.100.77,key-ip0018,198.51.100.77:51253,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+90,a-ip-18,198.51.100.77,key-ip0018,198.51.100.77:51253,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+95,a-ip-19,198.51.100.77,key-ip0019,198.51.100.77:51254,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+95,a-ip-19,198.51.100.77,key-ip0019,198.51.100.77:51254,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+100,a-ip-20,198.51.100.77,key-ip0020,198.51.100.77:51255,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+100,a-ip-20,198.51.100.77,key-ip0020,198.51.100.77:51255,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+105,a-ip-21,198.51.100.77,key-ip0021,198.51.100.77:51256,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+105,a-ip-21,198.51.100.77,key-ip0021,198.51.100.77:51256,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+110,a-ip-22,198.51.100.77,key-ip0022,198.51.100.77:51257,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+110,a-ip-22,198.51.100.77,key-ip0022,198.51.100.77:51257,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+115,a-ip-23,198.51.100.77,key-ip0023,198.51.100.77:51258,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+115,a-ip-23,198.51.100.77,key-ip0023,198.51.100.77:51258,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+120,a-ip-24,198.51.100.77,key-ip0024,198.51.100.77:51259,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+120,a-ip-24,198.51.100.77,key-ip0024,198.51.100.77:51259,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+125,a-ip-25,198.51.100.77,key-ip0025,198.51.100.77:51260,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+125,a-ip-25,198.51.100.77,key-ip0025,198.51.100.77:51260,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+130,a-ip-26,198.51.100.77,key-ip0026,198.51.100.77:51261,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+130,a-ip-26,198.51.100.77,key-ip0026,198.51.100.77:51261,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+135,a-ip-27,198.51.100.77,key-ip0027,198.51.100.77:51262,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+135,a-ip-27,198.51.100.77,key-ip0027,198.51.100.77:51262,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+140,a-ip-28,198.51.100.77,key-ip0028,198.51.100.77:51263,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+140,a-ip-28,198.51.100.77,key-ip0028,198.51.100.77:51263,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+145,a-ip-29,198.51.100.77,key-ip0029,198.51.100.77:51264,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+145,a-ip-29,198.51.100.77,key-ip0029,198.51.100.77:51264,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+150,a-ip-30,198.51.100.77,key-ip0030,198.51.100.77:51265,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+150,a-ip-30,198.51.100.77,key-ip0030,198.51.100.77:51265,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+155,a-ip-31,198.51.100.77,key-ip0031,198.51.100.77:51266,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,a-ip-31,198.51.100.77,key-ip0031,198.51.100.77:51266,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+160,a-ip-32,198.51.100.77,key-ip0032,198.51.100.77:51267,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+160,a-ip-32,198.51.100.77,key-ip0032,198.51.100.77:51267,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+165,a-ip-33,198.51.100.77,key-ip0033,198.51.100.77:51268,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+165,a-ip-33,198.51.100.77,key-ip0033,198.51.100.77:51268,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+170,a-ip-34,198.51.100.77,key-ip0034,198.51.100.77:51269,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+170,a-ip-34,198.51.100.77,key-ip0034,198.51.100.77:51269,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+175,a-ip-35,198.51.100.77,key-ip0035,198.51.100.77:51270,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+175,a-ip-35,198.51.100.77,key-ip0035,198.51.100.77:51270,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+180,a-ip-36,198.51.100.77,key-ip0036,198.51.100.77:51271,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+180,a-ip-36,198.51.100.77,key-ip0036,198.51.100.77:51271,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+185,a-ip-37,198.51.100.77,key-ip0037,198.51.100.77:51272,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+185,a-ip-37,198.51.100.77,key-ip0037,198.51.100.77:51272,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+190,a-ip-38,198.51.100.77,key-ip0038,198.51.100.77:51273,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+190,a-ip-38,198.51.100.77,key-ip0038,198.51.100.77:51273,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+195,a-ip-39,198.51.100.77,key-ip0039,198.51.100.77:51274,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+195,a-ip-39,198.51.100.77,key-ip0039,198.51.100.77:51274,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+200,a-ip-40,198.51.100.77,key-ip0040,198.51.100.77:51275,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+200,a-ip-40,198.51.100.77,key-ip0040,198.51.100.77:51275,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+205,a-ip-41,198.51.100.77,key-ip0041,198.51.100.77:51276,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+205,a-ip-41,198.51.100.77,key-ip0041,198.51.100.77:51276,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+210,a-ip-42,198.51.100.77,key-ip0042,198.51.100.77:51277,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+210,a-ip-42,198.51.100.77,key-ip0042,198.51.100.77:51277,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+215,a-ip-43,198.51.100.77,key-ip0043,198.51.100.77:51278,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+215,a-ip-43,198.51.100.77,key-ip0043,198.51.100.77:51278,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+220,a-ip-44,198.51.100.77,key-ip0044,198.51.100.77:51279,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+220,a-ip-44,198.51.100.77,key-ip0044,198.51.100.77:51279,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+225,a-ip-45,198.51.100.77,key-ip0045,198.51.100.77:51280,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+225,a-ip-45,198.51.100.77,key-ip0045,198.51.100.77:51280,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+230,a-ip-46,198.51.100.77,key-ip0046,198.51.100.77:51281,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+230,a-ip-46,198.51.100.77,key-ip0046,198.51.100.77:51281,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+235,a-ip-47,198.51.100.77,key-ip0047,198.51.100.77:51282,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+235,a-ip-47,198.51.100.77,key-ip0047,198.51.100.77:51282,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+240,a-ip-48,198.51.100.77,key-ip0048,198.51.100.77:51283,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+240,a-ip-48,198.51.100.77,key-ip0048,198.51.100.77:51283,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)
+245,a-ip-49,198.51.100.77,key-ip0049,198.51.100.77:51284,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+245,a-ip-49,198.51.100.77,key-ip0049,198.51.100.77:51284,in,new_inbound_slot,C00_ip_limit,rejected_ip_limit,IP 198.51.100.77 already has 2 connections; ipLimit 2 exceeded (Logic.h:274-285)

@@ -1,0 +1,610 @@
+t_ms,actor,ip,key,endpoint,direction,event,control,outcome,detail
+0,a-dup-0-0,198.51.100.20,key-dup0000,198.51.100.20:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=1/11 out=0/10 fixed=0 reserved=0
+0,a-dup-0-0,198.51.100.20,key-dup0000,198.51.100.20:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+0,a-dup-0-0,198.51.100.20,key-dup0000,198.51.100.20:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.20: 1
+5,a-dup-1-0,198.51.100.21,key-dup0001,198.51.100.21:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=2/11 out=0/10 fixed=0 reserved=0
+5,a-dup-1-0,198.51.100.21,key-dup0001,198.51.100.21:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+5,a-dup-1-0,198.51.100.21,key-dup0001,198.51.100.21:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.21: 1
+10,a-dup-2-0,198.51.100.22,key-dup0002,198.51.100.22:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=3/11 out=0/10 fixed=0 reserved=0
+10,a-dup-2-0,198.51.100.22,key-dup0002,198.51.100.22:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+10,a-dup-2-0,198.51.100.22,key-dup0002,198.51.100.22:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.22: 1
+15,a-dup-3-0,198.51.100.23,key-dup0003,198.51.100.23:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=4/11 out=0/10 fixed=0 reserved=0
+15,a-dup-3-0,198.51.100.23,key-dup0003,198.51.100.23:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+15,a-dup-3-0,198.51.100.23,key-dup0003,198.51.100.23:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.23: 1
+20,a-dup-4-0,198.51.100.24,key-dup0004,198.51.100.24:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=5/11 out=0/10 fixed=0 reserved=0
+20,a-dup-4-0,198.51.100.24,key-dup0004,198.51.100.24:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+20,a-dup-4-0,198.51.100.24,key-dup0004,198.51.100.24:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.24: 1
+25,a-dup-5-0,198.51.100.25,key-dup0005,198.51.100.25:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=6/11 out=0/10 fixed=0 reserved=0
+25,a-dup-5-0,198.51.100.25,key-dup0005,198.51.100.25:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+25,a-dup-5-0,198.51.100.25,key-dup0005,198.51.100.25:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.25: 1
+30,a-dup-6-0,198.51.100.26,key-dup0006,198.51.100.26:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=7/11 out=0/10 fixed=0 reserved=0
+30,a-dup-6-0,198.51.100.26,key-dup0006,198.51.100.26:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+30,a-dup-6-0,198.51.100.26,key-dup0006,198.51.100.26:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.26: 1
+35,a-dup-7-0,198.51.100.27,key-dup0007,198.51.100.27:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=8/11 out=0/10 fixed=0 reserved=0
+35,a-dup-7-0,198.51.100.27,key-dup0007,198.51.100.27:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+35,a-dup-7-0,198.51.100.27,key-dup0007,198.51.100.27:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.27: 1
+40,a-dup-8-0,198.51.100.28,key-dup0008,198.51.100.28:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=9/11 out=0/10 fixed=0 reserved=0
+40,a-dup-8-0,198.51.100.28,key-dup0008,198.51.100.28:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+40,a-dup-8-0,198.51.100.28,key-dup0008,198.51.100.28:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.28: 1
+45,a-dup-9-0,198.51.100.29,key-dup0009,198.51.100.29:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=10/11 out=0/10 fixed=0 reserved=0
+45,a-dup-9-0,198.51.100.29,key-dup0009,198.51.100.29:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+45,a-dup-9-0,198.51.100.29,key-dup0009,198.51.100.29:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.29: 1
+50,a-dup-10-0,198.51.100.30,key-dup0010,198.51.100.30:51235,in,activate,C02_inbound_slots,activated,peer active as in slot; totals in=11/11 out=0/10 fixed=0 reserved=0
+50,a-dup-10-0,198.51.100.30,key-dup0010,198.51.100.30:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+50,a-dup-10-0,198.51.100.30,key-dup0010,198.51.100.30:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.30: 1
+55,a-dup-11-0,198.51.100.31,key-dup0011,198.51.100.31:51235,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+55,a-dup-11-0,198.51.100.31,key-dup0011,198.51.100.31:51235,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+55,a-dup-11-0,198.51.100.31,key-dup0011,198.51.100.31:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+55,a-dup-11-0,198.51.100.31,key-dup0011,198.51.100.31:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.31: 1
+60,a-dup-12-0,198.51.100.32,key-dup0012,198.51.100.32:51235,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+60,a-dup-12-0,198.51.100.32,key-dup0012,198.51.100.32:51235,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+60,a-dup-12-0,198.51.100.32,key-dup0012,198.51.100.32:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+60,a-dup-12-0,198.51.100.32,key-dup0012,198.51.100.32:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.32: 1
+65,a-dup-13-0,198.51.100.33,key-dup0013,198.51.100.33:51235,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+65,a-dup-13-0,198.51.100.33,key-dup0013,198.51.100.33:51235,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+65,a-dup-13-0,198.51.100.33,key-dup0013,198.51.100.33:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+65,a-dup-13-0,198.51.100.33,key-dup0013,198.51.100.33:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.33: 1
+70,a-dup-14-0,198.51.100.34,key-dup0014,198.51.100.34:51235,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+70,a-dup-14-0,198.51.100.34,key-dup0014,198.51.100.34:51235,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+70,a-dup-14-0,198.51.100.34,key-dup0014,198.51.100.34:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+70,a-dup-14-0,198.51.100.34,key-dup0014,198.51.100.34:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.34: 1
+75,a-dup-15-0,198.51.100.35,key-dup0015,198.51.100.35:51235,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+75,a-dup-15-0,198.51.100.35,key-dup0015,198.51.100.35:51235,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+75,a-dup-15-0,198.51.100.35,key-dup0015,198.51.100.35:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+75,a-dup-15-0,198.51.100.35,key-dup0015,198.51.100.35:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.35: 1
+80,a-dup-16-0,198.51.100.36,key-dup0016,198.51.100.36:51235,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+80,a-dup-16-0,198.51.100.36,key-dup0016,198.51.100.36:51235,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+80,a-dup-16-0,198.51.100.36,key-dup0016,198.51.100.36:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+80,a-dup-16-0,198.51.100.36,key-dup0016,198.51.100.36:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.36: 1
+85,a-dup-17-0,198.51.100.37,key-dup0017,198.51.100.37:51235,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+85,a-dup-17-0,198.51.100.37,key-dup0017,198.51.100.37:51235,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+85,a-dup-17-0,198.51.100.37,key-dup0017,198.51.100.37:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+85,a-dup-17-0,198.51.100.37,key-dup0017,198.51.100.37:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.37: 1
+90,a-dup-18-0,198.51.100.38,key-dup0018,198.51.100.38:51235,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+90,a-dup-18-0,198.51.100.38,key-dup0018,198.51.100.38:51235,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+90,a-dup-18-0,198.51.100.38,key-dup0018,198.51.100.38:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+90,a-dup-18-0,198.51.100.38,key-dup0018,198.51.100.38:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.38: 1
+95,a-dup-19-0,198.51.100.39,key-dup0019,198.51.100.39:51235,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+95,a-dup-19-0,198.51.100.39,key-dup0019,198.51.100.39:51235,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+95,a-dup-19-0,198.51.100.39,key-dup0019,198.51.100.39:51235,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+95,a-dup-19-0,198.51.100.39,key-dup0019,198.51.100.39:51235,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.39: 1
+100,a-dup-0-1,198.51.100.60,key-dup0000,198.51.100.60:51236,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+100,a-dup-0-1,198.51.100.60,key-dup0000,198.51.100.60:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+100,a-dup-0-1,198.51.100.60,key-dup0000,198.51.100.60:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+100,a-dup-0-1,198.51.100.60,key-dup0000,198.51.100.60:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.60: 1
+105,a-dup-1-1,198.51.100.61,key-dup0001,198.51.100.61:51236,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+105,a-dup-1-1,198.51.100.61,key-dup0001,198.51.100.61:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+105,a-dup-1-1,198.51.100.61,key-dup0001,198.51.100.61:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+105,a-dup-1-1,198.51.100.61,key-dup0001,198.51.100.61:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.61: 1
+110,a-dup-2-1,198.51.100.62,key-dup0002,198.51.100.62:51236,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+110,a-dup-2-1,198.51.100.62,key-dup0002,198.51.100.62:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+110,a-dup-2-1,198.51.100.62,key-dup0002,198.51.100.62:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+110,a-dup-2-1,198.51.100.62,key-dup0002,198.51.100.62:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.62: 1
+115,a-dup-3-1,198.51.100.63,key-dup0003,198.51.100.63:51236,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+115,a-dup-3-1,198.51.100.63,key-dup0003,198.51.100.63:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+115,a-dup-3-1,198.51.100.63,key-dup0003,198.51.100.63:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+115,a-dup-3-1,198.51.100.63,key-dup0003,198.51.100.63:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.63: 1
+120,a-dup-4-1,198.51.100.64,key-dup0004,198.51.100.64:51236,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+120,a-dup-4-1,198.51.100.64,key-dup0004,198.51.100.64:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+120,a-dup-4-1,198.51.100.64,key-dup0004,198.51.100.64:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+120,a-dup-4-1,198.51.100.64,key-dup0004,198.51.100.64:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.64: 1
+125,a-dup-5-1,198.51.100.65,key-dup0005,198.51.100.65:51236,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+125,a-dup-5-1,198.51.100.65,key-dup0005,198.51.100.65:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+125,a-dup-5-1,198.51.100.65,key-dup0005,198.51.100.65:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+125,a-dup-5-1,198.51.100.65,key-dup0005,198.51.100.65:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.65: 1
+130,a-dup-6-1,198.51.100.66,key-dup0006,198.51.100.66:51236,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+130,a-dup-6-1,198.51.100.66,key-dup0006,198.51.100.66:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+130,a-dup-6-1,198.51.100.66,key-dup0006,198.51.100.66:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+130,a-dup-6-1,198.51.100.66,key-dup0006,198.51.100.66:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.66: 1
+135,a-dup-7-1,198.51.100.67,key-dup0007,198.51.100.67:51236,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+135,a-dup-7-1,198.51.100.67,key-dup0007,198.51.100.67:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+135,a-dup-7-1,198.51.100.67,key-dup0007,198.51.100.67:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+135,a-dup-7-1,198.51.100.67,key-dup0007,198.51.100.67:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.67: 1
+140,a-dup-8-1,198.51.100.68,key-dup0008,198.51.100.68:51236,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+140,a-dup-8-1,198.51.100.68,key-dup0008,198.51.100.68:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+140,a-dup-8-1,198.51.100.68,key-dup0008,198.51.100.68:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+140,a-dup-8-1,198.51.100.68,key-dup0008,198.51.100.68:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.68: 1
+145,a-dup-9-1,198.51.100.69,key-dup0009,198.51.100.69:51236,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+145,a-dup-9-1,198.51.100.69,key-dup0009,198.51.100.69:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+145,a-dup-9-1,198.51.100.69,key-dup0009,198.51.100.69:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+145,a-dup-9-1,198.51.100.69,key-dup0009,198.51.100.69:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.69: 1
+150,a-dup-10-1,198.51.100.70,key-dup0010,198.51.100.70:51236,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+150,a-dup-10-1,198.51.100.70,key-dup0010,198.51.100.70:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+150,a-dup-10-1,198.51.100.70,key-dup0010,198.51.100.70:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+150,a-dup-10-1,198.51.100.70,key-dup0010,198.51.100.70:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.70: 1
+155,a-dup-11-1,198.51.100.71,key-dup0011,198.51.100.71:51236,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+155,a-dup-11-1,198.51.100.71,key-dup0011,198.51.100.71:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+155,a-dup-11-1,198.51.100.71,key-dup0011,198.51.100.71:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+155,a-dup-11-1,198.51.100.71,key-dup0011,198.51.100.71:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.71: 1
+160,a-dup-12-1,198.51.100.72,key-dup0012,198.51.100.72:51236,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+160,a-dup-12-1,198.51.100.72,key-dup0012,198.51.100.72:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+160,a-dup-12-1,198.51.100.72,key-dup0012,198.51.100.72:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+160,a-dup-12-1,198.51.100.72,key-dup0012,198.51.100.72:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.72: 1
+165,a-dup-13-1,198.51.100.73,key-dup0013,198.51.100.73:51236,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+165,a-dup-13-1,198.51.100.73,key-dup0013,198.51.100.73:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+165,a-dup-13-1,198.51.100.73,key-dup0013,198.51.100.73:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+165,a-dup-13-1,198.51.100.73,key-dup0013,198.51.100.73:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.73: 1
+170,a-dup-14-1,198.51.100.74,key-dup0014,198.51.100.74:51236,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+170,a-dup-14-1,198.51.100.74,key-dup0014,198.51.100.74:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+170,a-dup-14-1,198.51.100.74,key-dup0014,198.51.100.74:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+170,a-dup-14-1,198.51.100.74,key-dup0014,198.51.100.74:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.74: 1
+175,a-dup-15-1,198.51.100.75,key-dup0015,198.51.100.75:51236,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+175,a-dup-15-1,198.51.100.75,key-dup0015,198.51.100.75:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+175,a-dup-15-1,198.51.100.75,key-dup0015,198.51.100.75:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+175,a-dup-15-1,198.51.100.75,key-dup0015,198.51.100.75:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.75: 1
+180,a-dup-16-1,198.51.100.76,key-dup0016,198.51.100.76:51236,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+180,a-dup-16-1,198.51.100.76,key-dup0016,198.51.100.76:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+180,a-dup-16-1,198.51.100.76,key-dup0016,198.51.100.76:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+180,a-dup-16-1,198.51.100.76,key-dup0016,198.51.100.76:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.76: 1
+185,a-dup-17-1,198.51.100.77,key-dup0017,198.51.100.77:51236,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+185,a-dup-17-1,198.51.100.77,key-dup0017,198.51.100.77:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+185,a-dup-17-1,198.51.100.77,key-dup0017,198.51.100.77:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+185,a-dup-17-1,198.51.100.77,key-dup0017,198.51.100.77:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.77: 1
+190,a-dup-18-1,198.51.100.78,key-dup0018,198.51.100.78:51236,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+190,a-dup-18-1,198.51.100.78,key-dup0018,198.51.100.78:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+190,a-dup-18-1,198.51.100.78,key-dup0018,198.51.100.78:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+190,a-dup-18-1,198.51.100.78,key-dup0018,198.51.100.78:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.78: 1
+195,a-dup-19-1,198.51.100.79,key-dup0019,198.51.100.79:51236,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+195,a-dup-19-1,198.51.100.79,key-dup0019,198.51.100.79:51236,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+195,a-dup-19-1,198.51.100.79,key-dup0019,198.51.100.79:51236,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+195,a-dup-19-1,198.51.100.79,key-dup0019,198.51.100.79:51236,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.79: 1
+200,a-dup-0-2,198.51.100.100,key-dup0000,198.51.100.100:51237,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+200,a-dup-0-2,198.51.100.100,key-dup0000,198.51.100.100:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+200,a-dup-0-2,198.51.100.100,key-dup0000,198.51.100.100:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+200,a-dup-0-2,198.51.100.100,key-dup0000,198.51.100.100:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.100: 1
+205,a-dup-1-2,198.51.100.101,key-dup0001,198.51.100.101:51237,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+205,a-dup-1-2,198.51.100.101,key-dup0001,198.51.100.101:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+205,a-dup-1-2,198.51.100.101,key-dup0001,198.51.100.101:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+205,a-dup-1-2,198.51.100.101,key-dup0001,198.51.100.101:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.101: 1
+210,a-dup-2-2,198.51.100.102,key-dup0002,198.51.100.102:51237,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+210,a-dup-2-2,198.51.100.102,key-dup0002,198.51.100.102:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+210,a-dup-2-2,198.51.100.102,key-dup0002,198.51.100.102:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+210,a-dup-2-2,198.51.100.102,key-dup0002,198.51.100.102:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.102: 1
+215,a-dup-3-2,198.51.100.103,key-dup0003,198.51.100.103:51237,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+215,a-dup-3-2,198.51.100.103,key-dup0003,198.51.100.103:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+215,a-dup-3-2,198.51.100.103,key-dup0003,198.51.100.103:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+215,a-dup-3-2,198.51.100.103,key-dup0003,198.51.100.103:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.103: 1
+220,a-dup-4-2,198.51.100.104,key-dup0004,198.51.100.104:51237,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+220,a-dup-4-2,198.51.100.104,key-dup0004,198.51.100.104:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+220,a-dup-4-2,198.51.100.104,key-dup0004,198.51.100.104:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+220,a-dup-4-2,198.51.100.104,key-dup0004,198.51.100.104:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.104: 1
+225,a-dup-5-2,198.51.100.105,key-dup0005,198.51.100.105:51237,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+225,a-dup-5-2,198.51.100.105,key-dup0005,198.51.100.105:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+225,a-dup-5-2,198.51.100.105,key-dup0005,198.51.100.105:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+225,a-dup-5-2,198.51.100.105,key-dup0005,198.51.100.105:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.105: 1
+230,a-dup-6-2,198.51.100.106,key-dup0006,198.51.100.106:51237,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+230,a-dup-6-2,198.51.100.106,key-dup0006,198.51.100.106:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+230,a-dup-6-2,198.51.100.106,key-dup0006,198.51.100.106:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+230,a-dup-6-2,198.51.100.106,key-dup0006,198.51.100.106:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.106: 1
+235,a-dup-7-2,198.51.100.107,key-dup0007,198.51.100.107:51237,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+235,a-dup-7-2,198.51.100.107,key-dup0007,198.51.100.107:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+235,a-dup-7-2,198.51.100.107,key-dup0007,198.51.100.107:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+235,a-dup-7-2,198.51.100.107,key-dup0007,198.51.100.107:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.107: 1
+240,a-dup-8-2,198.51.100.108,key-dup0008,198.51.100.108:51237,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+240,a-dup-8-2,198.51.100.108,key-dup0008,198.51.100.108:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+240,a-dup-8-2,198.51.100.108,key-dup0008,198.51.100.108:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+240,a-dup-8-2,198.51.100.108,key-dup0008,198.51.100.108:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.108: 1
+245,a-dup-9-2,198.51.100.109,key-dup0009,198.51.100.109:51237,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+245,a-dup-9-2,198.51.100.109,key-dup0009,198.51.100.109:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+245,a-dup-9-2,198.51.100.109,key-dup0009,198.51.100.109:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+245,a-dup-9-2,198.51.100.109,key-dup0009,198.51.100.109:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.109: 1
+250,a-dup-10-2,198.51.100.110,key-dup0010,198.51.100.110:51237,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+250,a-dup-10-2,198.51.100.110,key-dup0010,198.51.100.110:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+250,a-dup-10-2,198.51.100.110,key-dup0010,198.51.100.110:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+250,a-dup-10-2,198.51.100.110,key-dup0010,198.51.100.110:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.110: 1
+255,a-dup-11-2,198.51.100.111,key-dup0011,198.51.100.111:51237,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+255,a-dup-11-2,198.51.100.111,key-dup0011,198.51.100.111:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+255,a-dup-11-2,198.51.100.111,key-dup0011,198.51.100.111:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+255,a-dup-11-2,198.51.100.111,key-dup0011,198.51.100.111:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.111: 1
+260,a-dup-12-2,198.51.100.112,key-dup0012,198.51.100.112:51237,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+260,a-dup-12-2,198.51.100.112,key-dup0012,198.51.100.112:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+260,a-dup-12-2,198.51.100.112,key-dup0012,198.51.100.112:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+260,a-dup-12-2,198.51.100.112,key-dup0012,198.51.100.112:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.112: 1
+265,a-dup-13-2,198.51.100.113,key-dup0013,198.51.100.113:51237,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+265,a-dup-13-2,198.51.100.113,key-dup0013,198.51.100.113:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+265,a-dup-13-2,198.51.100.113,key-dup0013,198.51.100.113:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+265,a-dup-13-2,198.51.100.113,key-dup0013,198.51.100.113:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.113: 1
+270,a-dup-14-2,198.51.100.114,key-dup0014,198.51.100.114:51237,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+270,a-dup-14-2,198.51.100.114,key-dup0014,198.51.100.114:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+270,a-dup-14-2,198.51.100.114,key-dup0014,198.51.100.114:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+270,a-dup-14-2,198.51.100.114,key-dup0014,198.51.100.114:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.114: 1
+275,a-dup-15-2,198.51.100.115,key-dup0015,198.51.100.115:51237,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+275,a-dup-15-2,198.51.100.115,key-dup0015,198.51.100.115:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+275,a-dup-15-2,198.51.100.115,key-dup0015,198.51.100.115:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+275,a-dup-15-2,198.51.100.115,key-dup0015,198.51.100.115:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.115: 1
+280,a-dup-16-2,198.51.100.116,key-dup0016,198.51.100.116:51237,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+280,a-dup-16-2,198.51.100.116,key-dup0016,198.51.100.116:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+280,a-dup-16-2,198.51.100.116,key-dup0016,198.51.100.116:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+280,a-dup-16-2,198.51.100.116,key-dup0016,198.51.100.116:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.116: 1
+285,a-dup-17-2,198.51.100.117,key-dup0017,198.51.100.117:51237,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+285,a-dup-17-2,198.51.100.117,key-dup0017,198.51.100.117:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+285,a-dup-17-2,198.51.100.117,key-dup0017,198.51.100.117:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+285,a-dup-17-2,198.51.100.117,key-dup0017,198.51.100.117:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.117: 1
+290,a-dup-18-2,198.51.100.118,key-dup0018,198.51.100.118:51237,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+290,a-dup-18-2,198.51.100.118,key-dup0018,198.51.100.118:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+290,a-dup-18-2,198.51.100.118,key-dup0018,198.51.100.118:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+290,a-dup-18-2,198.51.100.118,key-dup0018,198.51.100.118:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.118: 1
+295,a-dup-19-2,198.51.100.119,key-dup0019,198.51.100.119:51237,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+295,a-dup-19-2,198.51.100.119,key-dup0019,198.51.100.119:51237,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+295,a-dup-19-2,198.51.100.119,key-dup0019,198.51.100.119:51237,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+295,a-dup-19-2,198.51.100.119,key-dup0019,198.51.100.119:51237,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.119: 1
+300,a-dup-0-3,198.51.100.140,key-dup0000,198.51.100.140:51238,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+300,a-dup-0-3,198.51.100.140,key-dup0000,198.51.100.140:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+300,a-dup-0-3,198.51.100.140,key-dup0000,198.51.100.140:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+300,a-dup-0-3,198.51.100.140,key-dup0000,198.51.100.140:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.140: 1
+305,a-dup-1-3,198.51.100.141,key-dup0001,198.51.100.141:51238,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+305,a-dup-1-3,198.51.100.141,key-dup0001,198.51.100.141:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+305,a-dup-1-3,198.51.100.141,key-dup0001,198.51.100.141:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+305,a-dup-1-3,198.51.100.141,key-dup0001,198.51.100.141:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.141: 1
+310,a-dup-2-3,198.51.100.142,key-dup0002,198.51.100.142:51238,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+310,a-dup-2-3,198.51.100.142,key-dup0002,198.51.100.142:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+310,a-dup-2-3,198.51.100.142,key-dup0002,198.51.100.142:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+310,a-dup-2-3,198.51.100.142,key-dup0002,198.51.100.142:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.142: 1
+315,a-dup-3-3,198.51.100.143,key-dup0003,198.51.100.143:51238,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+315,a-dup-3-3,198.51.100.143,key-dup0003,198.51.100.143:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+315,a-dup-3-3,198.51.100.143,key-dup0003,198.51.100.143:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+315,a-dup-3-3,198.51.100.143,key-dup0003,198.51.100.143:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.143: 1
+320,a-dup-4-3,198.51.100.144,key-dup0004,198.51.100.144:51238,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+320,a-dup-4-3,198.51.100.144,key-dup0004,198.51.100.144:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+320,a-dup-4-3,198.51.100.144,key-dup0004,198.51.100.144:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+320,a-dup-4-3,198.51.100.144,key-dup0004,198.51.100.144:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.144: 1
+325,a-dup-5-3,198.51.100.145,key-dup0005,198.51.100.145:51238,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+325,a-dup-5-3,198.51.100.145,key-dup0005,198.51.100.145:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+325,a-dup-5-3,198.51.100.145,key-dup0005,198.51.100.145:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+325,a-dup-5-3,198.51.100.145,key-dup0005,198.51.100.145:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.145: 1
+330,a-dup-6-3,198.51.100.146,key-dup0006,198.51.100.146:51238,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+330,a-dup-6-3,198.51.100.146,key-dup0006,198.51.100.146:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+330,a-dup-6-3,198.51.100.146,key-dup0006,198.51.100.146:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+330,a-dup-6-3,198.51.100.146,key-dup0006,198.51.100.146:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.146: 1
+335,a-dup-7-3,198.51.100.147,key-dup0007,198.51.100.147:51238,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+335,a-dup-7-3,198.51.100.147,key-dup0007,198.51.100.147:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+335,a-dup-7-3,198.51.100.147,key-dup0007,198.51.100.147:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+335,a-dup-7-3,198.51.100.147,key-dup0007,198.51.100.147:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.147: 1
+340,a-dup-8-3,198.51.100.148,key-dup0008,198.51.100.148:51238,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+340,a-dup-8-3,198.51.100.148,key-dup0008,198.51.100.148:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+340,a-dup-8-3,198.51.100.148,key-dup0008,198.51.100.148:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+340,a-dup-8-3,198.51.100.148,key-dup0008,198.51.100.148:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.148: 1
+345,a-dup-9-3,198.51.100.149,key-dup0009,198.51.100.149:51238,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+345,a-dup-9-3,198.51.100.149,key-dup0009,198.51.100.149:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+345,a-dup-9-3,198.51.100.149,key-dup0009,198.51.100.149:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+345,a-dup-9-3,198.51.100.149,key-dup0009,198.51.100.149:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.149: 1
+350,a-dup-10-3,198.51.100.150,key-dup0010,198.51.100.150:51238,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+350,a-dup-10-3,198.51.100.150,key-dup0010,198.51.100.150:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+350,a-dup-10-3,198.51.100.150,key-dup0010,198.51.100.150:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+350,a-dup-10-3,198.51.100.150,key-dup0010,198.51.100.150:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.150: 1
+355,a-dup-11-3,198.51.100.151,key-dup0011,198.51.100.151:51238,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+355,a-dup-11-3,198.51.100.151,key-dup0011,198.51.100.151:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+355,a-dup-11-3,198.51.100.151,key-dup0011,198.51.100.151:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+355,a-dup-11-3,198.51.100.151,key-dup0011,198.51.100.151:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.151: 1
+360,a-dup-12-3,198.51.100.152,key-dup0012,198.51.100.152:51238,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+360,a-dup-12-3,198.51.100.152,key-dup0012,198.51.100.152:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+360,a-dup-12-3,198.51.100.152,key-dup0012,198.51.100.152:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+360,a-dup-12-3,198.51.100.152,key-dup0012,198.51.100.152:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.152: 1
+365,a-dup-13-3,198.51.100.153,key-dup0013,198.51.100.153:51238,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+365,a-dup-13-3,198.51.100.153,key-dup0013,198.51.100.153:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+365,a-dup-13-3,198.51.100.153,key-dup0013,198.51.100.153:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+365,a-dup-13-3,198.51.100.153,key-dup0013,198.51.100.153:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.153: 1
+370,a-dup-14-3,198.51.100.154,key-dup0014,198.51.100.154:51238,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+370,a-dup-14-3,198.51.100.154,key-dup0014,198.51.100.154:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+370,a-dup-14-3,198.51.100.154,key-dup0014,198.51.100.154:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+370,a-dup-14-3,198.51.100.154,key-dup0014,198.51.100.154:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.154: 1
+375,a-dup-15-3,198.51.100.155,key-dup0015,198.51.100.155:51238,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+375,a-dup-15-3,198.51.100.155,key-dup0015,198.51.100.155:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+375,a-dup-15-3,198.51.100.155,key-dup0015,198.51.100.155:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+375,a-dup-15-3,198.51.100.155,key-dup0015,198.51.100.155:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.155: 1
+380,a-dup-16-3,198.51.100.156,key-dup0016,198.51.100.156:51238,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+380,a-dup-16-3,198.51.100.156,key-dup0016,198.51.100.156:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+380,a-dup-16-3,198.51.100.156,key-dup0016,198.51.100.156:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+380,a-dup-16-3,198.51.100.156,key-dup0016,198.51.100.156:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.156: 1
+385,a-dup-17-3,198.51.100.157,key-dup0017,198.51.100.157:51238,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+385,a-dup-17-3,198.51.100.157,key-dup0017,198.51.100.157:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+385,a-dup-17-3,198.51.100.157,key-dup0017,198.51.100.157:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+385,a-dup-17-3,198.51.100.157,key-dup0017,198.51.100.157:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.157: 1
+390,a-dup-18-3,198.51.100.158,key-dup0018,198.51.100.158:51238,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+390,a-dup-18-3,198.51.100.158,key-dup0018,198.51.100.158:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+390,a-dup-18-3,198.51.100.158,key-dup0018,198.51.100.158:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+390,a-dup-18-3,198.51.100.158,key-dup0018,198.51.100.158:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.158: 1
+395,a-dup-19-3,198.51.100.159,key-dup0019,198.51.100.159:51238,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+395,a-dup-19-3,198.51.100.159,key-dup0019,198.51.100.159:51238,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+395,a-dup-19-3,198.51.100.159,key-dup0019,198.51.100.159:51238,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+395,a-dup-19-3,198.51.100.159,key-dup0019,198.51.100.159:51238,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 198.51.100.159: 1
+400,a-dup-0-4,192.0.2.10,key-dup0000,192.0.2.10:51239,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+400,a-dup-0-4,192.0.2.10,key-dup0000,192.0.2.10:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+400,a-dup-0-4,192.0.2.10,key-dup0000,192.0.2.10:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+400,a-dup-0-4,192.0.2.10,key-dup0000,192.0.2.10:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.10: 1
+405,a-dup-1-4,192.0.2.11,key-dup0001,192.0.2.11:51239,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+405,a-dup-1-4,192.0.2.11,key-dup0001,192.0.2.11:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+405,a-dup-1-4,192.0.2.11,key-dup0001,192.0.2.11:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+405,a-dup-1-4,192.0.2.11,key-dup0001,192.0.2.11:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.11: 1
+410,a-dup-2-4,192.0.2.12,key-dup0002,192.0.2.12:51239,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+410,a-dup-2-4,192.0.2.12,key-dup0002,192.0.2.12:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+410,a-dup-2-4,192.0.2.12,key-dup0002,192.0.2.12:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+410,a-dup-2-4,192.0.2.12,key-dup0002,192.0.2.12:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.12: 1
+415,a-dup-3-4,192.0.2.13,key-dup0003,192.0.2.13:51239,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+415,a-dup-3-4,192.0.2.13,key-dup0003,192.0.2.13:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+415,a-dup-3-4,192.0.2.13,key-dup0003,192.0.2.13:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+415,a-dup-3-4,192.0.2.13,key-dup0003,192.0.2.13:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.13: 1
+420,a-dup-4-4,192.0.2.14,key-dup0004,192.0.2.14:51239,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+420,a-dup-4-4,192.0.2.14,key-dup0004,192.0.2.14:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+420,a-dup-4-4,192.0.2.14,key-dup0004,192.0.2.14:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+420,a-dup-4-4,192.0.2.14,key-dup0004,192.0.2.14:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.14: 1
+425,a-dup-5-4,192.0.2.15,key-dup0005,192.0.2.15:51239,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+425,a-dup-5-4,192.0.2.15,key-dup0005,192.0.2.15:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+425,a-dup-5-4,192.0.2.15,key-dup0005,192.0.2.15:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+425,a-dup-5-4,192.0.2.15,key-dup0005,192.0.2.15:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.15: 1
+430,a-dup-6-4,192.0.2.16,key-dup0006,192.0.2.16:51239,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+430,a-dup-6-4,192.0.2.16,key-dup0006,192.0.2.16:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+430,a-dup-6-4,192.0.2.16,key-dup0006,192.0.2.16:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+430,a-dup-6-4,192.0.2.16,key-dup0006,192.0.2.16:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.16: 1
+435,a-dup-7-4,192.0.2.17,key-dup0007,192.0.2.17:51239,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+435,a-dup-7-4,192.0.2.17,key-dup0007,192.0.2.17:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+435,a-dup-7-4,192.0.2.17,key-dup0007,192.0.2.17:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+435,a-dup-7-4,192.0.2.17,key-dup0007,192.0.2.17:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.17: 1
+440,a-dup-8-4,192.0.2.18,key-dup0008,192.0.2.18:51239,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+440,a-dup-8-4,192.0.2.18,key-dup0008,192.0.2.18:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+440,a-dup-8-4,192.0.2.18,key-dup0008,192.0.2.18:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+440,a-dup-8-4,192.0.2.18,key-dup0008,192.0.2.18:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.18: 1
+445,a-dup-9-4,192.0.2.19,key-dup0009,192.0.2.19:51239,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+445,a-dup-9-4,192.0.2.19,key-dup0009,192.0.2.19:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+445,a-dup-9-4,192.0.2.19,key-dup0009,192.0.2.19:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+445,a-dup-9-4,192.0.2.19,key-dup0009,192.0.2.19:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.19: 1
+450,a-dup-10-4,192.0.2.20,key-dup0010,192.0.2.20:51239,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+450,a-dup-10-4,192.0.2.20,key-dup0010,192.0.2.20:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+450,a-dup-10-4,192.0.2.20,key-dup0010,192.0.2.20:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+450,a-dup-10-4,192.0.2.20,key-dup0010,192.0.2.20:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.20: 1
+455,a-dup-11-4,192.0.2.21,key-dup0011,192.0.2.21:51239,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+455,a-dup-11-4,192.0.2.21,key-dup0011,192.0.2.21:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+455,a-dup-11-4,192.0.2.21,key-dup0011,192.0.2.21:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+455,a-dup-11-4,192.0.2.21,key-dup0011,192.0.2.21:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.21: 1
+460,a-dup-12-4,192.0.2.22,key-dup0012,192.0.2.22:51239,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+460,a-dup-12-4,192.0.2.22,key-dup0012,192.0.2.22:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+460,a-dup-12-4,192.0.2.22,key-dup0012,192.0.2.22:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+460,a-dup-12-4,192.0.2.22,key-dup0012,192.0.2.22:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.22: 1
+465,a-dup-13-4,192.0.2.23,key-dup0013,192.0.2.23:51239,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+465,a-dup-13-4,192.0.2.23,key-dup0013,192.0.2.23:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+465,a-dup-13-4,192.0.2.23,key-dup0013,192.0.2.23:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+465,a-dup-13-4,192.0.2.23,key-dup0013,192.0.2.23:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.23: 1
+470,a-dup-14-4,192.0.2.24,key-dup0014,192.0.2.24:51239,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+470,a-dup-14-4,192.0.2.24,key-dup0014,192.0.2.24:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+470,a-dup-14-4,192.0.2.24,key-dup0014,192.0.2.24:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+470,a-dup-14-4,192.0.2.24,key-dup0014,192.0.2.24:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.24: 1
+475,a-dup-15-4,192.0.2.25,key-dup0015,192.0.2.25:51239,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+475,a-dup-15-4,192.0.2.25,key-dup0015,192.0.2.25:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+475,a-dup-15-4,192.0.2.25,key-dup0015,192.0.2.25:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+475,a-dup-15-4,192.0.2.25,key-dup0015,192.0.2.25:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.25: 1
+480,a-dup-16-4,192.0.2.26,key-dup0016,192.0.2.26:51239,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+480,a-dup-16-4,192.0.2.26,key-dup0016,192.0.2.26:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+480,a-dup-16-4,192.0.2.26,key-dup0016,192.0.2.26:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+480,a-dup-16-4,192.0.2.26,key-dup0016,192.0.2.26:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.26: 1
+485,a-dup-17-4,192.0.2.27,key-dup0017,192.0.2.27:51239,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+485,a-dup-17-4,192.0.2.27,key-dup0017,192.0.2.27:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+485,a-dup-17-4,192.0.2.27,key-dup0017,192.0.2.27:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+485,a-dup-17-4,192.0.2.27,key-dup0017,192.0.2.27:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.27: 1
+490,a-dup-18-4,192.0.2.28,key-dup0018,192.0.2.28:51239,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+490,a-dup-18-4,192.0.2.28,key-dup0018,192.0.2.28:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+490,a-dup-18-4,192.0.2.28,key-dup0018,192.0.2.28:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+490,a-dup-18-4,192.0.2.28,key-dup0018,192.0.2.28:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.28: 1
+495,a-dup-19-4,192.0.2.29,key-dup0019,192.0.2.29:51239,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+495,a-dup-19-4,192.0.2.29,key-dup0019,192.0.2.29:51239,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+495,a-dup-19-4,192.0.2.29,key-dup0019,192.0.2.29:51239,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+495,a-dup-19-4,192.0.2.29,key-dup0019,192.0.2.29:51239,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.29: 1
+500,a-dup-0-5,192.0.2.30,key-dup0000,192.0.2.30:51240,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+500,a-dup-0-5,192.0.2.30,key-dup0000,192.0.2.30:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+500,a-dup-0-5,192.0.2.30,key-dup0000,192.0.2.30:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+500,a-dup-0-5,192.0.2.30,key-dup0000,192.0.2.30:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.30: 1
+505,a-dup-1-5,192.0.2.31,key-dup0001,192.0.2.31:51240,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+505,a-dup-1-5,192.0.2.31,key-dup0001,192.0.2.31:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+505,a-dup-1-5,192.0.2.31,key-dup0001,192.0.2.31:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+505,a-dup-1-5,192.0.2.31,key-dup0001,192.0.2.31:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.31: 1
+510,a-dup-2-5,192.0.2.32,key-dup0002,192.0.2.32:51240,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+510,a-dup-2-5,192.0.2.32,key-dup0002,192.0.2.32:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+510,a-dup-2-5,192.0.2.32,key-dup0002,192.0.2.32:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+510,a-dup-2-5,192.0.2.32,key-dup0002,192.0.2.32:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.32: 1
+515,a-dup-3-5,192.0.2.33,key-dup0003,192.0.2.33:51240,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+515,a-dup-3-5,192.0.2.33,key-dup0003,192.0.2.33:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+515,a-dup-3-5,192.0.2.33,key-dup0003,192.0.2.33:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+515,a-dup-3-5,192.0.2.33,key-dup0003,192.0.2.33:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.33: 1
+520,a-dup-4-5,192.0.2.34,key-dup0004,192.0.2.34:51240,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+520,a-dup-4-5,192.0.2.34,key-dup0004,192.0.2.34:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+520,a-dup-4-5,192.0.2.34,key-dup0004,192.0.2.34:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+520,a-dup-4-5,192.0.2.34,key-dup0004,192.0.2.34:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.34: 1
+525,a-dup-5-5,192.0.2.35,key-dup0005,192.0.2.35:51240,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+525,a-dup-5-5,192.0.2.35,key-dup0005,192.0.2.35:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+525,a-dup-5-5,192.0.2.35,key-dup0005,192.0.2.35:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+525,a-dup-5-5,192.0.2.35,key-dup0005,192.0.2.35:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.35: 1
+530,a-dup-6-5,192.0.2.36,key-dup0006,192.0.2.36:51240,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+530,a-dup-6-5,192.0.2.36,key-dup0006,192.0.2.36:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+530,a-dup-6-5,192.0.2.36,key-dup0006,192.0.2.36:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+530,a-dup-6-5,192.0.2.36,key-dup0006,192.0.2.36:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.36: 1
+535,a-dup-7-5,192.0.2.37,key-dup0007,192.0.2.37:51240,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+535,a-dup-7-5,192.0.2.37,key-dup0007,192.0.2.37:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+535,a-dup-7-5,192.0.2.37,key-dup0007,192.0.2.37:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+535,a-dup-7-5,192.0.2.37,key-dup0007,192.0.2.37:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.37: 1
+540,a-dup-8-5,192.0.2.38,key-dup0008,192.0.2.38:51240,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+540,a-dup-8-5,192.0.2.38,key-dup0008,192.0.2.38:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+540,a-dup-8-5,192.0.2.38,key-dup0008,192.0.2.38:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+540,a-dup-8-5,192.0.2.38,key-dup0008,192.0.2.38:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.38: 1
+545,a-dup-9-5,192.0.2.39,key-dup0009,192.0.2.39:51240,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+545,a-dup-9-5,192.0.2.39,key-dup0009,192.0.2.39:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+545,a-dup-9-5,192.0.2.39,key-dup0009,192.0.2.39:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+545,a-dup-9-5,192.0.2.39,key-dup0009,192.0.2.39:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.39: 1
+550,a-dup-10-5,192.0.2.40,key-dup0010,192.0.2.40:51240,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+550,a-dup-10-5,192.0.2.40,key-dup0010,192.0.2.40:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+550,a-dup-10-5,192.0.2.40,key-dup0010,192.0.2.40:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+550,a-dup-10-5,192.0.2.40,key-dup0010,192.0.2.40:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.40: 1
+555,a-dup-11-5,192.0.2.41,key-dup0011,192.0.2.41:51240,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+555,a-dup-11-5,192.0.2.41,key-dup0011,192.0.2.41:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+555,a-dup-11-5,192.0.2.41,key-dup0011,192.0.2.41:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+555,a-dup-11-5,192.0.2.41,key-dup0011,192.0.2.41:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.41: 1
+560,a-dup-12-5,192.0.2.42,key-dup0012,192.0.2.42:51240,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+560,a-dup-12-5,192.0.2.42,key-dup0012,192.0.2.42:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+560,a-dup-12-5,192.0.2.42,key-dup0012,192.0.2.42:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+560,a-dup-12-5,192.0.2.42,key-dup0012,192.0.2.42:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.42: 1
+565,a-dup-13-5,192.0.2.43,key-dup0013,192.0.2.43:51240,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+565,a-dup-13-5,192.0.2.43,key-dup0013,192.0.2.43:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+565,a-dup-13-5,192.0.2.43,key-dup0013,192.0.2.43:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+565,a-dup-13-5,192.0.2.43,key-dup0013,192.0.2.43:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.43: 1
+570,a-dup-14-5,192.0.2.44,key-dup0014,192.0.2.44:51240,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+570,a-dup-14-5,192.0.2.44,key-dup0014,192.0.2.44:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+570,a-dup-14-5,192.0.2.44,key-dup0014,192.0.2.44:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+570,a-dup-14-5,192.0.2.44,key-dup0014,192.0.2.44:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.44: 1
+575,a-dup-15-5,192.0.2.45,key-dup0015,192.0.2.45:51240,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+575,a-dup-15-5,192.0.2.45,key-dup0015,192.0.2.45:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+575,a-dup-15-5,192.0.2.45,key-dup0015,192.0.2.45:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+575,a-dup-15-5,192.0.2.45,key-dup0015,192.0.2.45:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.45: 1
+580,a-dup-16-5,192.0.2.46,key-dup0016,192.0.2.46:51240,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+580,a-dup-16-5,192.0.2.46,key-dup0016,192.0.2.46:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+580,a-dup-16-5,192.0.2.46,key-dup0016,192.0.2.46:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+580,a-dup-16-5,192.0.2.46,key-dup0016,192.0.2.46:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.46: 1
+585,a-dup-17-5,192.0.2.47,key-dup0017,192.0.2.47:51240,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+585,a-dup-17-5,192.0.2.47,key-dup0017,192.0.2.47:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+585,a-dup-17-5,192.0.2.47,key-dup0017,192.0.2.47:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+585,a-dup-17-5,192.0.2.47,key-dup0017,192.0.2.47:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.47: 1
+590,a-dup-18-5,192.0.2.48,key-dup0018,192.0.2.48:51240,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+590,a-dup-18-5,192.0.2.48,key-dup0018,192.0.2.48:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+590,a-dup-18-5,192.0.2.48,key-dup0018,192.0.2.48:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+590,a-dup-18-5,192.0.2.48,key-dup0018,192.0.2.48:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.48: 1
+595,a-dup-19-5,192.0.2.49,key-dup0019,192.0.2.49:51240,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+595,a-dup-19-5,192.0.2.49,key-dup0019,192.0.2.49:51240,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+595,a-dup-19-5,192.0.2.49,key-dup0019,192.0.2.49:51240,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+595,a-dup-19-5,192.0.2.49,key-dup0019,192.0.2.49:51240,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.49: 1
+600,a-dup-0-6,192.0.2.50,key-dup0000,192.0.2.50:51241,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+600,a-dup-0-6,192.0.2.50,key-dup0000,192.0.2.50:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+600,a-dup-0-6,192.0.2.50,key-dup0000,192.0.2.50:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+600,a-dup-0-6,192.0.2.50,key-dup0000,192.0.2.50:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.50: 1
+605,a-dup-1-6,192.0.2.51,key-dup0001,192.0.2.51:51241,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+605,a-dup-1-6,192.0.2.51,key-dup0001,192.0.2.51:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+605,a-dup-1-6,192.0.2.51,key-dup0001,192.0.2.51:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+605,a-dup-1-6,192.0.2.51,key-dup0001,192.0.2.51:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.51: 1
+610,a-dup-2-6,192.0.2.52,key-dup0002,192.0.2.52:51241,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+610,a-dup-2-6,192.0.2.52,key-dup0002,192.0.2.52:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+610,a-dup-2-6,192.0.2.52,key-dup0002,192.0.2.52:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+610,a-dup-2-6,192.0.2.52,key-dup0002,192.0.2.52:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.52: 1
+615,a-dup-3-6,192.0.2.53,key-dup0003,192.0.2.53:51241,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+615,a-dup-3-6,192.0.2.53,key-dup0003,192.0.2.53:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+615,a-dup-3-6,192.0.2.53,key-dup0003,192.0.2.53:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+615,a-dup-3-6,192.0.2.53,key-dup0003,192.0.2.53:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.53: 1
+620,a-dup-4-6,192.0.2.54,key-dup0004,192.0.2.54:51241,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+620,a-dup-4-6,192.0.2.54,key-dup0004,192.0.2.54:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+620,a-dup-4-6,192.0.2.54,key-dup0004,192.0.2.54:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+620,a-dup-4-6,192.0.2.54,key-dup0004,192.0.2.54:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.54: 1
+625,a-dup-5-6,192.0.2.55,key-dup0005,192.0.2.55:51241,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+625,a-dup-5-6,192.0.2.55,key-dup0005,192.0.2.55:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+625,a-dup-5-6,192.0.2.55,key-dup0005,192.0.2.55:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+625,a-dup-5-6,192.0.2.55,key-dup0005,192.0.2.55:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.55: 1
+630,a-dup-6-6,192.0.2.56,key-dup0006,192.0.2.56:51241,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+630,a-dup-6-6,192.0.2.56,key-dup0006,192.0.2.56:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+630,a-dup-6-6,192.0.2.56,key-dup0006,192.0.2.56:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+630,a-dup-6-6,192.0.2.56,key-dup0006,192.0.2.56:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.56: 1
+635,a-dup-7-6,192.0.2.57,key-dup0007,192.0.2.57:51241,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+635,a-dup-7-6,192.0.2.57,key-dup0007,192.0.2.57:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+635,a-dup-7-6,192.0.2.57,key-dup0007,192.0.2.57:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+635,a-dup-7-6,192.0.2.57,key-dup0007,192.0.2.57:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.57: 1
+640,a-dup-8-6,192.0.2.58,key-dup0008,192.0.2.58:51241,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+640,a-dup-8-6,192.0.2.58,key-dup0008,192.0.2.58:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+640,a-dup-8-6,192.0.2.58,key-dup0008,192.0.2.58:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+640,a-dup-8-6,192.0.2.58,key-dup0008,192.0.2.58:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.58: 1
+645,a-dup-9-6,192.0.2.59,key-dup0009,192.0.2.59:51241,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+645,a-dup-9-6,192.0.2.59,key-dup0009,192.0.2.59:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+645,a-dup-9-6,192.0.2.59,key-dup0009,192.0.2.59:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+645,a-dup-9-6,192.0.2.59,key-dup0009,192.0.2.59:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.59: 1
+650,a-dup-10-6,192.0.2.60,key-dup0010,192.0.2.60:51241,in,activate,C01_duplicate_identity,rejected_duplicate_key,public key already active (Logic.h:415-418)
+650,a-dup-10-6,192.0.2.60,key-dup0010,192.0.2.60:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: duplicatePeer
+650,a-dup-10-6,192.0.2.60,key-dup0010,192.0.2.60:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+650,a-dup-10-6,192.0.2.60,key-dup0010,192.0.2.60:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.60: 1
+655,a-dup-11-6,192.0.2.61,key-dup0011,192.0.2.61:51241,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+655,a-dup-11-6,192.0.2.61,key-dup0011,192.0.2.61:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+655,a-dup-11-6,192.0.2.61,key-dup0011,192.0.2.61:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+655,a-dup-11-6,192.0.2.61,key-dup0011,192.0.2.61:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.61: 1
+660,a-dup-12-6,192.0.2.62,key-dup0012,192.0.2.62:51241,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+660,a-dup-12-6,192.0.2.62,key-dup0012,192.0.2.62:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+660,a-dup-12-6,192.0.2.62,key-dup0012,192.0.2.62:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+660,a-dup-12-6,192.0.2.62,key-dup0012,192.0.2.62:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.62: 1
+665,a-dup-13-6,192.0.2.63,key-dup0013,192.0.2.63:51241,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+665,a-dup-13-6,192.0.2.63,key-dup0013,192.0.2.63:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+665,a-dup-13-6,192.0.2.63,key-dup0013,192.0.2.63:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+665,a-dup-13-6,192.0.2.63,key-dup0013,192.0.2.63:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.63: 1
+670,a-dup-14-6,192.0.2.64,key-dup0014,192.0.2.64:51241,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+670,a-dup-14-6,192.0.2.64,key-dup0014,192.0.2.64:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+670,a-dup-14-6,192.0.2.64,key-dup0014,192.0.2.64:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+670,a-dup-14-6,192.0.2.64,key-dup0014,192.0.2.64:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.64: 1
+675,a-dup-15-6,192.0.2.65,key-dup0015,192.0.2.65:51241,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+675,a-dup-15-6,192.0.2.65,key-dup0015,192.0.2.65:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+675,a-dup-15-6,192.0.2.65,key-dup0015,192.0.2.65:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+675,a-dup-15-6,192.0.2.65,key-dup0015,192.0.2.65:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.65: 1
+680,a-dup-16-6,192.0.2.66,key-dup0016,192.0.2.66:51241,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+680,a-dup-16-6,192.0.2.66,key-dup0016,192.0.2.66:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+680,a-dup-16-6,192.0.2.66,key-dup0016,192.0.2.66:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+680,a-dup-16-6,192.0.2.66,key-dup0016,192.0.2.66:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.66: 1
+685,a-dup-17-6,192.0.2.67,key-dup0017,192.0.2.67:51241,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+685,a-dup-17-6,192.0.2.67,key-dup0017,192.0.2.67:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+685,a-dup-17-6,192.0.2.67,key-dup0017,192.0.2.67:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+685,a-dup-17-6,192.0.2.67,key-dup0017,192.0.2.67:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.67: 1
+690,a-dup-18-6,192.0.2.68,key-dup0018,192.0.2.68:51241,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+690,a-dup-18-6,192.0.2.68,key-dup0018,192.0.2.68:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+690,a-dup-18-6,192.0.2.68,key-dup0018,192.0.2.68:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+690,a-dup-18-6,192.0.2.68,key-dup0018,192.0.2.68:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.68: 1
+695,a-dup-19-6,192.0.2.69,key-dup0019,192.0.2.69:51241,in,activate,C02_inbound_slots,rejected_slots_full,no in slot free (11/11 active); reserved=False (Logic.h:427-435)
+695,a-dup-19-6,192.0.2.69,key-dup0019,192.0.2.69:51241,in,disconnect,peer_lifecycle,disconnected,removed in slot (was accept): activate failed: full
+695,a-dup-19-6,192.0.2.69,key-dup0019,192.0.2.69:51241,,handshake,handshake,verified,"cookie, Network-ID and Local/Remote-IP checks passed"
+695,a-dup-19-6,192.0.2.69,key-dup0019,192.0.2.69:51241,in,new_inbound_slot,C02_inbound_slots,slot_created,inbound slot created; connected from 192.0.2.69: 1
+700,a-200,198.51.100.210,key-a0200,198.51.100.210:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+705,a-201,198.51.100.211,key-a0201,198.51.100.211:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+710,a-202,198.51.100.212,key-a0202,198.51.100.212:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+715,a-203,198.51.100.213,key-a0203,198.51.100.213:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+720,a-204,198.51.100.214,key-a0204,198.51.100.214:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+725,a-205,198.51.100.215,key-a0205,198.51.100.215:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+730,a-206,198.51.100.216,key-a0206,198.51.100.216:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+735,a-207,198.51.100.217,key-a0207,198.51.100.217:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+740,a-208,198.51.100.218,key-a0208,198.51.100.218:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+745,a-209,198.51.100.219,key-a0209,198.51.100.219:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+750,a-210,198.51.100.220,key-a0210,198.51.100.220:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+755,a-211,198.51.100.221,key-a0211,198.51.100.221:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+760,a-212,198.51.100.222,key-a0212,198.51.100.222:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+765,a-213,198.51.100.223,key-a0213,198.51.100.223:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+770,a-214,198.51.100.224,key-a0214,198.51.100.224:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+775,a-215,198.51.100.225,key-a0215,198.51.100.225:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+780,a-216,198.51.100.226,key-a0216,198.51.100.226:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+785,a-217,198.51.100.227,key-a0217,198.51.100.227:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+790,a-218,198.51.100.228,key-a0218,198.51.100.228:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+795,a-219,198.51.100.229,key-a0219,198.51.100.229:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+800,a-220,198.51.100.230,key-a0220,198.51.100.230:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+805,a-221,198.51.100.231,key-a0221,198.51.100.231:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+810,a-222,198.51.100.232,key-a0222,198.51.100.232:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+815,a-223,198.51.100.233,key-a0223,198.51.100.233:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+820,a-224,198.51.100.234,key-a0224,198.51.100.234:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+825,a-225,198.51.100.235,key-a0225,198.51.100.235:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+830,a-226,198.51.100.236,key-a0226,198.51.100.236:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+835,a-227,198.51.100.237,key-a0227,198.51.100.237:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+840,a-228,198.51.100.238,key-a0228,198.51.100.238:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+845,a-229,198.51.100.239,key-a0229,198.51.100.239:51235,,handshake,C04_handshake_cookie,rejected_cookie,TLS Finished cookie mismatch (Handshake.cpp:140-165)
+850,a-230,198.51.100.240,key-a0230,198.51.100.240:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+855,a-231,198.51.100.241,key-a0231,198.51.100.241:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+860,a-232,198.51.100.242,key-a0232,198.51.100.242:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+865,a-233,198.51.100.243,key-a0233,198.51.100.243:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+870,a-234,198.51.100.244,key-a0234,198.51.100.244:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+875,a-235,198.51.100.245,key-a0235,198.51.100.245:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+880,a-236,198.51.100.246,key-a0236,198.51.100.246:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+885,a-237,198.51.100.247,key-a0237,198.51.100.247:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+890,a-238,198.51.100.248,key-a0238,198.51.100.248:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+895,a-239,198.51.100.249,key-a0239,198.51.100.249:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+900,a-240,198.51.100.250,key-a0240,198.51.100.250:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+905,a-241,198.51.100.251,key-a0241,198.51.100.251:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+910,a-242,198.51.100.252,key-a0242,198.51.100.252:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+915,a-243,198.51.100.253,key-a0243,198.51.100.253:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+920,a-244,198.51.100.254,key-a0244,198.51.100.254:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+925,a-245,198.51.100.255,key-a0245,198.51.100.255:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+930,a-246,198.51.100.256,key-a0246,198.51.100.256:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+935,a-247,198.51.100.257,key-a0247,198.51.100.257:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+940,a-248,198.51.100.258,key-a0248,198.51.100.258:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+945,a-249,198.51.100.259,key-a0249,198.51.100.259:51235,,handshake,C05_network_id,rejected_network_id,Network-ID header mismatch (Handshake.cpp:241-248)
+950,a-250,198.51.100.260,key-a0250,198.51.100.260:51235,,handshake,C06_proxy_rejection,rejected_proxy,Local-IP/Remote-IP mismatch: proxy attempt rejected (Handshake.cpp:325-356)
+955,a-251,198.51.100.261,key-a0251,198.51.100.261:51235,,handshake,C06_proxy_rejection,rejected_proxy,Local-IP/Remote-IP mismatch: proxy attempt rejected (Handshake.cpp:325-356)
+960,a-252,198.51.100.262,key-a0252,198.51.100.262:51235,,handshake,C06_proxy_rejection,rejected_proxy,Local-IP/Remote-IP mismatch: proxy attempt rejected (Handshake.cpp:325-356)
+965,a-253,198.51.100.263,key-a0253,198.51.100.263:51235,,handshake,C06_proxy_rejection,rejected_proxy,Local-IP/Remote-IP mismatch: proxy attempt rejected (Handshake.cpp:325-356)
+970,a-254,198.51.100.264,key-a0254,198.51.100.264:51235,,handshake,C06_proxy_rejection,rejected_proxy,Local-IP/Remote-IP mismatch: proxy attempt rejected (Handshake.cpp:325-356)
+975,a-255,198.51.100.265,key-a0255,198.51.100.265:51235,,handshake,C06_proxy_rejection,rejected_proxy,Local-IP/Remote-IP mismatch: proxy attempt rejected (Handshake.cpp:325-356)
+980,a-256,198.51.100.266,key-a0256,198.51.100.266:51235,,handshake,C06_proxy_rejection,rejected_proxy,Local-IP/Remote-IP mismatch: proxy attempt rejected (Handshake.cpp:325-356)
+985,a-257,198.51.100.267,key-a0257,198.51.100.267:51235,,handshake,C06_proxy_rejection,rejected_proxy,Local-IP/Remote-IP mismatch: proxy attempt rejected (Handshake.cpp:325-356)
+990,a-258,198.51.100.268,key-a0258,198.51.100.268:51235,,handshake,C06_proxy_rejection,rejected_proxy,Local-IP/Remote-IP mismatch: proxy attempt rejected (Handshake.cpp:325-356)
+995,a-259,198.51.100.269,key-a0259,198.51.100.269:51235,,handshake,C06_proxy_rejection,rejected_proxy,Local-IP/Remote-IP mismatch: proxy attempt rejected (Handshake.cpp:325-356)

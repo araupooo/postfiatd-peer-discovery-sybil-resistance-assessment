@@ -1,0 +1,298 @@
+{
+  "activated": 2,
+  "controls": {
+    "C00_ip_limit": 48,
+    "C02_inbound_slots": 4,
+    "handshake": 50
+  },
+  "duration_ms": 10000,
+  "endpoint_stats": {},
+  "final_state": {
+    "attempts_in_flight": 0,
+    "bootcache_entries": 0,
+    "fixed_active": 0,
+    "in_active": 2,
+    "in_max": 11,
+    "ip_limit": 2,
+    "keys_active": 2,
+    "livecache_entries": 0,
+    "out_active": 0,
+    "out_max": 10,
+    "reserved_active": 0,
+    "slots": 2,
+    "total_active": 2
+  },
+  "gossip_events": [],
+  "handshake_rejects": {},
+  "metrics": {
+    "accepted": 2,
+    "attacker_ip": "198.51.100.77",
+    "attacker_success_pct": 4.0,
+    "attempts_total": 50,
+    "rejected_ip_limit": 48
+  },
+  "outcomes": {
+    "activated": 2,
+    "rejected_ip_limit": 48,
+    "slot_created": 2,
+    "verified": 50
+  },
+  "per_actor": {
+    "a-ip-00": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "a-ip-01": {
+      "activated": 1,
+      "events": 3,
+      "rejected": 0
+    },
+    "a-ip-02": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-03": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-04": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-05": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-06": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-07": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-08": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-09": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-10": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-11": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-12": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-13": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-14": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-15": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-16": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-17": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-18": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-19": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-20": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-21": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-22": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-23": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-24": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-25": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-26": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-27": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-28": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-29": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-30": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-31": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-32": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-33": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-34": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-35": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-36": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-37": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-38": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-39": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-40": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-41": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-42": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-43": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-44": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-45": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-46": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-47": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-48": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    },
+    "a-ip-49": {
+      "activated": 0,
+      "events": 2,
+      "rejected": 1
+    }
+  },
+  "pinned_commit": "0085a1ff885d6a446369cf73a4430f75af22be55",
+  "rejected": 48,
+  "scenario": "S4-single-ip-flood",
+  "simulated": true,
+  "title": "Single-IP inbound flood: 50 attempts from one public IP (ipLimit 2)",
+  "total_events": 102
+}

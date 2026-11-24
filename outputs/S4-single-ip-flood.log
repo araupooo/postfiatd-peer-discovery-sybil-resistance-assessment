@@ -1,0 +1,20 @@
+scenario: S4-single-ip-flood
+title: Single-IP inbound flood: 50 attempts from one public IP (ipLimit 2)
+pinned_commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+scenario_file: scenarios/S4-single-ip-flood.json
+scenario_sha256: 777b6a407a4bcd7fb7b80797e59b0be5a2773dc5af6f5d854005e49afb403eed
+simulator_file: scripts/simulator.py
+simulator_sha256: 205ea7cb595be8a7afcd079de9ed959b5c81963265952c0e43186660bf8427f2
+harness_file: scripts/load_harness.py
+harness_sha256: b68ccc11cfdf32d841ef04174dfe89a5892806997204755a037882d3b4247ab2
+duration_ms: 10000
+total_events: 102
+activated: 2
+outcomes: {"activated": 2, "rejected_ip_limit": 48, "slot_created": 2, "verified": 50}
+controls: {"C00_ip_limit": 48, "C02_inbound_slots": 4, "handshake": 50}
+metrics: {"accepted": 2, "attacker_ip": "198.51.100.77", "attacker_success_pct": 4.0, "attempts_total": 50, "rejected_ip_limit": 48}
+final_state: {"attempts_in_flight": 0, "bootcache_entries": 0, "fixed_active": 0, "in_active": 2, "in_max": 11, "ip_limit": 2, "keys_active": 2, "livecache_entries": 0, "out_active": 0, "out_max": 10, "reserved_active": 0, "slots": 2, "total_active": 2}
+csv_file: outputs/S4-single-ip-flood.csv
+csv_sha256: 38709d5b26d6d3f2cdfe3f4588262dfe25c91d8e98f4dfe625caa1f514da8d08
+json_file: outputs/S4-single-ip-flood.json
+json_sha256: 332baeb286fa1af73a7ce1503ad08c5797e231b281ec199596a85a18674f79c2
